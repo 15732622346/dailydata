@@ -5,7 +5,55 @@
     "version": "1.1"
   },
   "user_info": {
-    "goals": [],
+    "basic": {
+      "birth_year": 1993,
+      "age": 35,
+      "height_cm": 173,
+      "gender": "男性"
+    },
+    "health": {
+      "current_weight_kg": 85,
+      "target_weight_kg": 65,
+      "weight_goal": "减重20kg（从170斤到130斤）",
+      "conditions": [
+        "鼻炎",
+        "失眠",
+        "焦虑",
+        "脸部出油严重",
+        "记忆力差（瞬间记忆能力弱）"
+      ],
+      "medications": [
+        {
+          "name": "佐匹克隆",
+          "purpose": "治疗失眠",
+          "type": "安眠药"
+        },
+        {
+          "name": "思诺思（唑吡坦）",
+          "purpose": "治疗失眠/焦虑",
+          "type": "安眠药"
+        },
+        {
+          "name": "异维A胶囊",
+          "purpose": "治疗痤疮/控制皮肤出油",
+          "type": "皮肤科处方药",
+          "frequency": "间断服用"
+        }
+      ],
+      "lifestyle_notes": [
+        "一天洗脸好几次（因脸部出油）",
+        "记忆力问题可能与失眠、焦虑、年龄相关"
+      ]
+    },
+    "goals": [
+      "减重至130斤（65kg）",
+      "戒零食",
+      "戒烟酒",
+      "改善睡眠质量",
+      "坚持规律运动",
+      "改善皮肤状态",
+      "提升记忆力"
+    ],
     "preferences": {},
     "account_balance": {
       "snapshot_date": "2026-10-02",
@@ -404,6 +452,106 @@
         "duration": "30分钟",
         "platform": "YouTube",
         "category": "娱乐视频"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_004",
+      "timestamp": "2026-10-10T15:55:00",
+      "type": "学习",
+      "event": "学习 Java 大模型开发",
+      "details": {
+        "content": "Java 大模型开发",
+        "duration": "30分钟",
+        "method": "通过 AI 学习",
+        "cost": "无"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_005",
+      "timestamp": "2026-10-10T16:25:00",
+      "type": "运动",
+      "event": "散步",
+      "details": {
+        "activity": "散步",
+        "duration": "约30分钟",
+        "intensity": "低",
+        "calories_burned": "约120千卡"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_006",
+      "timestamp": "2026-10-10T16:25:00",
+      "type": "学习",
+      "event": "巩固 Java 知识",
+      "details": {
+        "content": "巩固 Java 知识",
+        "duration": "30分钟",
+        "method": "边散步边复习"
+      },
+      "source": "用户明确",
+      "note": "与散步同时进行"
+    },
+    {
+      "id": "rec_20261010_007",
+      "timestamp": "2026-10-10T16:55:00",
+      "type": "学习",
+      "event": "学习 Java 八股文",
+      "details": {
+        "content": "Java 八股文",
+        "duration": "30分钟",
+        "method": "通过 AI 学习",
+        "cost": "无"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_008",
+      "timestamp": "2026-10-10T17:25:00",
+      "type": "学习",
+      "event": "学习英语完形填空",
+      "details": {
+        "content": "英语完形填空",
+        "duration": "30分钟",
+        "method": "通过 AI 学习",
+        "cost": "无"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_009",
+      "timestamp": "2026-10-10T17:55:00",
+      "type": "学习",
+      "event": "学习 Java GC",
+      "details": {
+        "content": "Java GC（垃圾回收）",
+        "duration": "30分钟",
+        "method": "通过 AI 学习",
+        "cost": "无"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_010",
+      "timestamp": "2026-10-10T18:25:00",
+      "type": "收支",
+      "event": "购买香山公园门票",
+      "details": {
+        "direction": "支出",
+        "amount": 10.00,
+        "currency": "CNY",
+        "category": "娱乐与休闲",
+        "description": "香山公园门票",
+        "account": "",
+        "merchant": ""
       },
       "source": "用户明确",
       "note": ""
