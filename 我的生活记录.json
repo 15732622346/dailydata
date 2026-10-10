@@ -393,6 +393,20 @@
       },
       "source": "用户明确",
       "note": ""
+    },
+    {
+      "id": "rec_20261010_003",
+      "timestamp": "2026-10-10T15:20:00",
+      "type": "娱乐",
+      "event": "看视频",
+      "details": {
+        "content": "油管躺平叔视频",
+        "duration": "30分钟",
+        "platform": "YouTube",
+        "category": "娱乐视频"
+      },
+      "source": "用户明确",
+      "note": ""
     }
   ]
 }
