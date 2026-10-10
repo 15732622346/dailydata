@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "created": "2026-10-10",
+    "description": "个人生活时间线记录",
+    "version": "1.1"
+  },
+  "user_info": {
+    "goals": [],
+    "preferences": {},
+    "account_balance": {
+      "snapshot_date": "2026-10-02",
+      "accounts": [
+        {
+          "name": "中信银行",
+          "balance": 147800.00
+        },
+        {
+          "name": "农业银行",
+          "balance": 400.00
+        }
+      ],
+      "total": 148200.00
+    }
+  },
+  "records": [
+    {
+      "id": "rec_20261002_001",
+      "timestamp": "2026-10-02",
+      "type": "收支",
+      "event": "购买啤酒",
+      "details": {
+        "direction": "支出",
+        "amount": 60.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "啤酒 8 罐",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261003_001",
+      "timestamp": "2026-10-03",
+      "type": "收支",
+      "event": "购买可乐",
+      "details": {
+        "direction": "支出",
+        "amount": 3.50,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "可乐一瓶",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261003_002",
+      "timestamp": "2026-10-03",
+      "type": "收支",
+      "event": "韩屋烤肉",
+      "details": {
+        "direction": "支出",
+        "amount": 180.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "韩屋烤肉",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261005_001",
+      "timestamp": "2026-10-05",
+      "type": "收支",
+      "event": "购买零食",
+      "details": {
+        "direction": "支出",
+        "amount": 69.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "好想来零食",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261006_001",
+      "timestamp": "2026-10-06",
+      "type": "收支",
+      "event": "购买鱼油",
+      "details": {
+        "direction": "支出",
+        "amount": 200.00,
+        "currency": "CNY",
+        "category": "医疗与健康",
+        "description": "鱼油一瓶（给朋友买的）",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261006_002",
+      "timestamp": "2026-10-06",
+      "type": "收支",
+      "event": "购买眼药水",
+      "details": {
+        "direction": "支出",
+        "amount": 47.00,
+        "currency": "CNY",
+        "category": "医疗与健康",
+        "description": "眼药水两瓶",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261007_001",
+      "timestamp": "2026-10-07",
+      "type": "收支",
+      "event": "购买药品",
+      "details": {
+        "direction": "支出",
+        "amount": 80.00,
+        "currency": "CNY",
+        "category": "医疗与健康",
+        "description": "异维A药品",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261007_002",
+      "timestamp": "2026-10-07",
+      "type": "收支",
+      "event": "购买可乐和卫生纸",
+      "details": {
+        "direction": "支出",
+        "amount": 20.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "可乐和卫生纸",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261007_003",
+      "timestamp": "2026-10-07",
+      "type": "收支",
+      "event": "购买棉拖鞋",
+      "details": {
+        "direction": "支出",
+        "amount": 40.00,
+        "currency": "CNY",
+        "category": "日用品",
+        "description": "棉拖鞋两双",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261007_004",
+      "timestamp": "2026-10-07",
+      "type": "收支",
+      "event": "购买零食",
+      "details": {
+        "direction": "支出",
+        "amount": 10.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "方便面两袋和花生一包",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261007_005",
+      "timestamp": "2026-10-07",
+      "type": "收支",
+      "event": "火车票",
+      "details": {
+        "direction": "支出",
+        "amount": 10.00,
+        "currency": "CNY",
+        "category": "交通",
+        "description": "火车票",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_001",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买耳机",
+      "details": {
+        "direction": "支出",
+        "amount": 400.00,
+        "currency": "CNY",
+        "category": "购物",
+        "description": "铁三角主动降噪耳机",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_002",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买可乐",
+      "details": {
+        "direction": "支出",
+        "amount": 3.50,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "可乐一瓶",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_003",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买耳机配件",
+      "details": {
+        "direction": "支出",
+        "amount": 8.50,
+        "currency": "CNY",
+        "category": "日用品",
+        "description": "耳机夹子 10 个",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_004",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买耳机配件",
+      "details": {
+        "direction": "支出",
+        "amount": 10.00,
+        "currency": "CNY",
+        "category": "日用品",
+        "description": "耳机挂耳一对",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_005",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "给女朋友买耳机",
+      "details": {
+        "direction": "支出",
+        "amount": 170.00,
+        "currency": "CNY",
+        "category": "人情往来",
+        "description": "给女朋友买耳机",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_006",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买零食",
+      "details": {
+        "direction": "支出",
+        "amount": 40.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "零食",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_007",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买水",
+      "details": {
+        "direction": "支出",
+        "amount": 10.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "水",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261008_008",
+      "timestamp": "2026-10-08",
+      "type": "收支",
+      "event": "购买炸串",
+      "details": {
+        "direction": "支出",
+        "amount": 15.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "炸串",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261009_001",
+      "timestamp": "2026-10-09",
+      "type": "收支",
+      "event": "购买食材",
+      "details": {
+        "direction": "支出",
+        "amount": 20.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "面包一袋和卤鸡蛋 15 个",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261010_001",
+      "timestamp": "2026-10-10T14:45:00",
+      "type": "饮食",
+      "event": "吃零食",
+      "details": {
+        "food": ["干脆面", "无糖可乐"],
+        "meal": "加餐",
+        "portion": "干脆面两袋，无糖可乐一瓶",
+        "calories_estimate": "约500千卡"
+      },
+      "source": "用户明确",
+      "note": "干脆面约400千卡，无糖可乐0千卡"
+    },
+    {
+      "id": "rec_20261010_002",
+      "timestamp": "2026-10-10T14:45:00",
+      "type": "收支",
+      "event": "购买零食",
+      "details": {
+        "direction": "支出",
+        "amount": 5.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "干脆面两袋和无糖可乐一瓶",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    }
+  ]
+}
