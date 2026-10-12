@@ -51,7 +51,7 @@
       "戒零食",
       "戒烟酒",
       "改善睡眠质量",
-      "坚持规律运动",
+      "坚持规律运动（每天1小时有氧，默认消耗500千卡）",
       "改善皮肤状态",
       "提升记忆力",
       "保护牙齿（吃完漱口，早晚刷牙）"
@@ -661,6 +661,23 @@
       "note": "10月放纵日消费"
     },
     {
+      "id": "rec_20261010_018",
+      "timestamp": "2026-10-10T23:00:00",
+      "type": "收支",
+      "event": "购买面包片和卤蛋",
+      "details": {
+        "direction": "支出",
+        "amount": 23.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "面包片两包8元，卤蛋15元",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
       "id": "rec_20261011_001",
       "timestamp": "2026-10-11T07:37:00",
       "type": "作息",
@@ -694,6 +711,286 @@
       },
       "source": "用户明确",
       "note": ""
+    },
+    {
+      "id": "rec_20261011_004",
+      "timestamp": "2026-10-11T08:18:00",
+      "type": "饮食",
+      "event": "吃早餐",
+      "details": {
+        "food": ["面包片", "浓咖啡", "浓缩奶球"],
+        "meal": "早餐",
+        "portion": "面包片2片，浓咖啡1杯，浓缩奶球2个",
+        "duration": "20分钟",
+        "calories_estimate": "约180-200千卡"
+      },
+      "source": "用户明确",
+      "note": "咖啡含咖啡因"
+    },
+    {
+      "id": "rec_20261011_005",
+      "timestamp": "2026-10-11T13:15:00",
+      "type": "健康",
+      "event": "领取佐匹克隆",
+      "details": {
+        "item": "佐匹克隆一盒",
+        "purpose": "治疗失眠"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_006",
+      "timestamp": "2026-10-11T13:15:00",
+      "type": "收支",
+      "event": "领取佐匹克隆",
+      "details": {
+        "direction": "支出",
+        "amount": 0.00,
+        "currency": "CNY",
+        "category": "医疗与健康",
+        "description": "佐匹克隆一盒",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": "没花钱"
+    },
+    {
+      "id": "rec_20261011_007",
+      "timestamp": "2026-10-11T13:15:00",
+      "type": "运动",
+      "event": "骑自行车",
+      "details": {
+        "activity": "骑自行车",
+        "duration": "约2.5-3小时",
+        "distance": "50公里",
+        "intensity": "低-中等",
+        "calories_burned": "约900-1200千卡"
+      },
+      "source": "用户明确",
+      "note": "时长和消耗为估算"
+    },
+    {
+      "id": "rec_20261011_008",
+      "timestamp": "2026-10-11T13:20:00",
+      "type": "运动",
+      "event": "爬香山",
+      "details": {
+        "activity": "爬山",
+        "duration": "1小时",
+        "intensity": "中等",
+        "calories_burned": "约400-500千卡"
+      },
+      "source": "用户明确",
+      "note": "上山再下山，消耗为估算"
+    },
+    {
+      "id": "rec_20261011_009",
+      "timestamp": "2026-10-11T15:05:00",
+      "type": "饮食",
+      "event": "吃午餐",
+      "details": {
+        "food": ["卤蛋", "面包片"],
+        "meal": "午餐",
+        "portion": "卤蛋4个，面包片6片",
+        "calories_estimate": "约500-550千卡"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_010",
+      "timestamp": "2026-10-11T15:31:00",
+      "type": "饮食",
+      "event": "喝无糖可乐",
+      "details": {
+        "food": ["无糖可乐"],
+        "meal": "加餐",
+        "portion": "两瓶",
+        "calories_estimate": "约0千卡"
+      },
+      "source": "用户明确",
+      "note": "爬山后奖励自己"
+    },
+    {
+      "id": "rec_20261011_011",
+      "timestamp": "2026-10-11T15:31:00",
+      "type": "收支",
+      "event": "购买无糖可乐",
+      "details": {
+        "direction": "支出",
+        "amount": 7.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "无糖可乐两瓶",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_012",
+      "timestamp": "2026-10-11T17:12:00",
+      "type": "饮食",
+      "event": "吃卤蛋",
+      "details": {
+        "food": ["卤蛋"],
+        "meal": "加餐",
+        "portion": "1个",
+        "calories_estimate": "约80千卡"
+      },
+      "source": "用户明确",
+      "note": "已漱口"
+    },
+    {
+      "id": "rec_20261011_013",
+      "timestamp": "2026-10-11T17:15:00",
+      "type": "娱乐",
+      "event": "刷油管和知乎",
+      "details": {
+        "content": "油管1分钟，知乎20分钟",
+        "duration": "21分钟",
+        "platform": "YouTube、知乎",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_014",
+      "timestamp": "2026-10-11T18:27:00",
+      "type": "饮食",
+      "event": "吃晚餐",
+      "details": {
+        "food": ["面包片", "鸡蛋"],
+        "meal": "晚餐",
+        "portion": "面包片3片，鸡蛋1个",
+        "calories_estimate": "约180-220千卡"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_015",
+      "timestamp": "2026-10-11T18:38:00",
+      "type": "健康",
+      "event": "洗漱",
+      "details": {
+        "activity": "洗漱",
+        "duration": "15分钟"
+      },
+      "source": "用户明确",
+      "note": "晚间刷牙"
+    },
+    {
+      "id": "rec_20261011_016",
+      "timestamp": "2026-10-11T18:57:00",
+      "type": "娱乐",
+      "event": "刷哔哩哔哩",
+      "details": {
+        "content": "哔哩哔哩",
+        "duration": "5分钟",
+        "platform": "哔哩哔哩",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_017",
+      "timestamp": "2026-10-11T21:05:00",
+      "type": "娱乐",
+      "event": "刷油管",
+      "details": {
+        "content": "油管",
+        "duration": "20分钟",
+        "platform": "YouTube",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261011_018",
+      "timestamp": "2026-10-11T22:05:00",
+      "type": "饮食",
+      "event": "晚上加餐",
+      "details": {
+        "food": ["面包片", "鸡蛋"],
+        "meal": "加餐",
+        "portion": "面包片8片，鸡蛋1个",
+        "calories_estimate": "约350-400千卡"
+      },
+      "source": "用户明确",
+      "note": "今日第二顿晚上吃的"
+    },
+    {
+      "id": "rec_20261011_019",
+      "timestamp": "2026-10-11T22:05:00",
+      "type": "娱乐",
+      "event": "刷知乎",
+      "details": {
+        "content": "知乎",
+        "duration": "1分钟",
+        "platform": "知乎",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_001",
+      "timestamp": "2026-10-12T07:52:00",
+      "type": "作息",
+      "event": "起床",
+      "details": {
+        "wake_time": "07:52"
+      },
+      "source": "用户明确",
+      "note": "昨晚入睡时间未记录"
+    },
+    {
+      "id": "rec_20261012_002",
+      "timestamp": "2026-10-12T08:13:00",
+      "type": "饮食",
+      "event": "吃早餐",
+      "details": {
+        "food": ["面包片", "浓咖啡", "浓缩奶球"],
+        "meal": "早餐",
+        "portion": "面包片2片，浓咖啡1杯，浓缩奶球2个",
+        "calories_estimate": "约180-200千卡"
+      },
+      "source": "用户明确",
+      "note": "咖啡含咖啡因"
+    },
+    {
+      "id": "rec_20261012_003",
+      "timestamp": "2026-10-12T08:26:00",
+      "type": "健康",
+      "event": "洗漱",
+      "details": {
+        "activity": "洗漱",
+        "duration": "10分钟"
+      },
+      "source": "用户明确",
+      "note": "含刷牙"
+    },
+    {
+      "id": "rec_20261012_004",
+      "timestamp": "2026-10-12T09:41:00",
+      "type": "运动",
+      "event": "骑自行车",
+      "details": {
+        "activity": "骑自行车",
+        "duration": "1小时",
+        "distance": "14公里",
+        "intensity": "低",
+        "calories_burned": "约250-350千卡"
+      },
+      "source": "用户明确",
+      "note": "轻松骑行"
     }
   ]
 }
