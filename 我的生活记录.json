@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-10",
     "description": "个人生活时间线记录",
-    "version": "1.1"
+    "version": "1.5"
   },
   "user_info": {
     "basic": {
@@ -991,6 +991,295 @@
       },
       "source": "用户明确",
       "note": "轻松骑行"
+    },
+    {
+      "id": "rec_20261012_005",
+      "timestamp": "2026-10-12T10:42:00",
+      "type": "饮食",
+      "event": "吃午餐",
+      "details": {
+        "food": ["塔斯汀汉堡"],
+        "meal": "午餐",
+        "portion": "2个",
+        "calories_estimate": "约900-1000千卡"
+      },
+      "source": "用户明确",
+      "note": "热量AI推测：单个约450-500千卡"
+    },
+    {
+      "id": "rec_20261012_006",
+      "timestamp": "2026-10-12T10:42:00",
+      "type": "收支",
+      "event": "购买午餐",
+      "details": {
+        "direction": "支出",
+        "amount": 25.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "塔斯汀汉堡两个",
+        "account": "",
+        "merchant": "塔斯汀"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_007",
+      "timestamp": "2026-10-12T11:13:00",
+      "type": "学习",
+      "event": "刷英语短句和单词",
+      "details": {
+        "content": "英语短句和单词",
+        "progress": "30道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "时长未提供"
+    },
+    {
+      "id": "rec_20261012_008",
+      "timestamp": "2026-10-12T11:13:00",
+      "type": "学习",
+      "event": "刷 Java 八股面试题",
+      "details": {
+        "content": "Java 八股面试",
+        "progress": "约20道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "时长未提供"
+    },
+    {
+      "id": "rec_20261012_009",
+      "timestamp": "2026-10-12T11:39:00",
+      "type": "饮食",
+      "event": "喝无糖可乐",
+      "details": {
+        "food": ["无糖可乐"],
+        "meal": "加餐",
+        "portion": "一瓶",
+        "calories_estimate": "约0千卡"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_010",
+      "timestamp": "2026-10-12T11:39:00",
+      "type": "收支",
+      "event": "购买无糖可乐",
+      "details": {
+        "direction": "支出",
+        "amount": 3.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "无糖可乐一瓶",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_011",
+      "timestamp": "2026-10-12T12:28:00",
+      "type": "健康",
+      "event": "洗脸",
+      "details": {
+        "activity": "洗脸"
+      },
+      "source": "用户明确",
+      "note": "洗脸不加卫生分"
+    },
+    {
+      "id": "rec_20261012_012",
+      "timestamp": "2026-10-12T12:39:00",
+      "type": "饮食",
+      "event": "喝浓咖啡",
+      "details": {
+        "food": ["浓咖啡", "无糖浓缩奶球"],
+        "meal": "加餐",
+        "portion": "浓咖啡1杯，无糖浓缩奶球2个",
+        "calories_estimate": "约20-40千卡"
+      },
+      "source": "用户明确",
+      "note": "今日第二杯咖啡，含咖啡因"
+    },
+    {
+      "id": "rec_20261012_013",
+      "timestamp": "2026-10-12T12:54:00",
+      "type": "学习",
+      "event": "刷英语短句和单词",
+      "details": {
+        "content": "英语短句和单词",
+        "progress": "约30道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "今日第二轮英语；时长未提供"
+    },
+    {
+      "id": "rec_20261012_014",
+      "timestamp": "2026-10-12T12:57:00",
+      "type": "学习",
+      "event": "刷大模型应用开发题",
+      "details": {
+        "content": "大模型应用开发",
+        "progress": "5道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "时长未提供"
+    },
+    {
+      "id": "rec_20261012_015",
+      "timestamp": "2026-10-12T13:21:00",
+      "type": "学习",
+      "event": "刷英语短句和单词",
+      "details": {
+        "content": "英语短句和单词",
+        "progress": "约30道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "今日第三轮英语；时长未提供"
+    },
+    {
+      "id": "rec_20261012_016",
+      "timestamp": "2026-10-12T13:49:00",
+      "type": "娱乐",
+      "event": "刷知乎",
+      "details": {
+        "content": "知乎",
+        "duration": "5分钟",
+        "platform": "知乎",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_017",
+      "timestamp": "2026-10-12T14:24:00",
+      "type": "收支",
+      "event": "购买自行车反光条",
+      "details": {
+        "direction": "支出",
+        "amount": 8.00,
+        "currency": "CNY",
+        "category": "日用品",
+        "description": "自行车反光条",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_018",
+      "timestamp": "2026-10-12T14:38:00",
+      "type": "学习",
+      "event": "刷大模型应用面试题",
+      "details": {
+        "content": "大模型应用面试",
+        "progress": "5道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "浅浅学；今日第二轮大模型；时长按题量估档"
+    },
+    {
+      "id": "rec_20261012_019",
+      "timestamp": "2026-10-12T16:09:00",
+      "type": "学习",
+      "event": "刷面试题",
+      "details": {
+        "content": "面试题",
+        "progress": "10道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "科目未说明；时长按题量估档"
+    },
+    {
+      "id": "rec_20261012_020",
+      "timestamp": "2026-10-12T16:09:00",
+      "type": "学习",
+      "event": "刷英语单词和句子",
+      "details": {
+        "content": "英语单词和句子",
+        "progress": "约50个",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "今日第四轮英语；时长按题量估档"
+    },
+    {
+      "id": "rec_20261012_021",
+      "timestamp": "2026-10-12T16:54:00",
+      "type": "工作",
+      "event": "修正规则文档和 skill",
+      "details": {
+        "content": "规则文档修正：评分、低摩擦、工作维度、文件拆分；核对 skill",
+        "duration": "约2小时",
+        "output": "原则8七项评分、原则9低摩擦、原则10文件拆分；skill 已同步七项和工作类型"
+      },
+      "source": "用户明确",
+      "note": "用户估至少2小时花在规则文档修正"
+    }
+  ],
+  "daily_scores": [
+    {
+      "date": "2026-10-12",
+      "status": "进行中",
+      "updated_at": "2026-10-12T16:54:00",
+      "overall": 7,
+      "scores": {
+        "学习": {
+          "score": 9,
+          "max": 10,
+          "note": "英语约140个+Java八股约20道+大模型约10道+面试题10道；按题量估档达100分钟以上9分，内容对目标有用已封顶"
+        },
+        "工作": {
+          "score": 6,
+          "max": 10,
+          "note": "规则文档修正约2小时，1–3小时档5分；有明确产出+1"
+        },
+        "饮食": {
+          "score": 4,
+          "max": 10,
+          "note": "基准6；午餐汉堡偏油-2"
+        },
+        "运动": {
+          "score": 8,
+          "max": 10,
+          "note": "骑车1小时达标"
+        },
+        "作息": {
+          "score": 7,
+          "max": 10,
+          "note": "基准5；7:52起床+2；入睡时间未记录"
+        },
+        "卫生": {
+          "score": 4,
+          "max": 10,
+          "note": "早上已刷牙+4；晚刷牙和餐后漱口尚未记录"
+        },
+        "自律": {
+          "score": 10,
+          "max": 10,
+          "note": "刷知乎5分钟，未满15分钟不扣分"
+        }
+      },
+      "source": "根据当日记录自动计算"
     }
   ]
 }
