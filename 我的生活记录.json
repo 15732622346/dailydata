@@ -1567,6 +1567,20 @@
       },
       "source": "用户明确",
       "note": "时长按题量估档"
+    },
+    {
+      "id": "rec_20261013_015",
+      "timestamp": "2026-10-13T11:57:47",
+      "type": "娱乐",
+      "event": "浏览Bilibili和YouTube订阅更新",
+      "details": {
+        "content": "查看订阅内容更新和世界资讯",
+        "duration": "约5分钟（AI估算）",
+        "platform": "Bilibili、YouTube",
+        "category": "信息浏览"
+      },
+      "source": "用户明确",
+      "note": "有明确目的的信息查看，不按无目的刷屏处理"
     }
   ],
   "daily_scores": [
