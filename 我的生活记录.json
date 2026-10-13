@@ -1248,19 +1248,338 @@
       },
       "source": "用户明确",
       "note": ""
+    },
+    {
+      "id": "rec_20261012_023",
+      "timestamp": "2026-10-12T17:47:07",
+      "type": "学习",
+      "event": "刷英语单词和句子",
+      "details": {
+        "content": "英语单词和句子",
+        "progress": "30多个",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "今日又一轮；时长未提供，按规则根据题量估档"
+    },
+    {
+      "id": "rec_20261012_024",
+      "timestamp": "2026-10-12T17:52:19",
+      "type": "学习",
+      "event": "刷面试题",
+      "details": {
+        "content": "面试题",
+        "progress": "5道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "科目未说明；时长按题量估档"
+    },
+    {
+      "id": "rec_20261012_025",
+      "timestamp": "2026-10-12T18:06:32",
+      "type": "娱乐",
+      "event": "听歌",
+      "details": {
+        "content": "听歌4首",
+        "duration": "未提供",
+        "platform": "未提供",
+        "category": "音乐"
+      },
+      "source": "用户明确",
+      "note": "用户表示太累"
+    },
+    {
+      "id": "rec_20261012_026",
+      "timestamp": "2026-10-12T19:45:37",
+      "type": "运动",
+      "event": "下班骑自行车回家",
+      "details": {
+        "activity": "骑自行车",
+        "duration": "未提供",
+        "intensity": "未提供",
+        "distance": "14公里",
+        "calories_burned": "约250-350千卡（AI估算）"
+      },
+      "source": "用户明确",
+      "note": "下班通勤骑行"
+    },
+    {
+      "id": "rec_20261012_027",
+      "timestamp": "2026-10-12T19:47:05",
+      "type": "饮食",
+      "event": "吃白豆腐",
+      "details": {
+        "food": [
+          "白豆腐"
+        ],
+        "meal": "晚餐",
+        "portion": "400克",
+        "calories_estimate": "约320-400千卡（AI估算，按普通白豆腐估算）"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_028",
+      "timestamp": "2026-10-12T20:00:35",
+      "type": "娱乐",
+      "event": "刷油管视频",
+      "details": {
+        "content": "油管视频",
+        "duration": "约15分钟（用户说十几分钟，AI估算）",
+        "platform": "油管",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_029",
+      "timestamp": "2026-10-12T21:23:46",
+      "type": "饮食",
+      "event": "吃卤蛋",
+      "details": {
+        "food": [
+          "卤蛋"
+        ],
+        "meal": "加餐",
+        "portion": "2个",
+        "calories_estimate": "约150-180千卡（AI估算）"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261012_030",
+      "timestamp": "2026-10-12T22:11:23",
+      "type": "健康",
+      "event": "晚间洗漱",
+      "details": {
+        "activity": "洗漱，含刷牙"
+      },
+      "source": "用户明确",
+      "note": "用户确认洗漱包含刷牙"
+    },
+    {
+      "id": "rec_20261013_001",
+      "timestamp": "2026-10-13T07:13:45",
+      "type": "作息",
+      "event": "昨晚入睡并于今早起床",
+      "details": {
+        "sleep_time": "2026-10-12T23:00:00",
+        "wake_time": "2026-10-13T07:13:45",
+        "sleep_duration_estimate": "约8小时14分钟"
+      },
+      "source": "用户明确",
+      "note": "入睡时间由用户报告为昨晚11点；起床时间按本次告知时刻记录"
+    },
+    {
+      "id": "rec_20261013_002",
+      "timestamp": "2026-10-13T07:42:05",
+      "type": "健康",
+      "event": "晨间洗漱",
+      "details": {
+        "activity": "冷水澡、刷牙等洗漱",
+        "duration": "15分钟"
+      },
+      "source": "用户明确",
+      "note": "含刷牙"
+    },
+    {
+      "id": "rec_20261013_003",
+      "timestamp": "2026-10-13T07:45:40",
+      "type": "收支",
+      "event": "购买阿达帕林",
+      "details": {
+        "direction": "支出",
+        "amount": 40.00,
+        "currency": "CNY",
+        "category": "医疗/药品",
+        "description": "阿达帕林3盒",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261013_004",
+      "timestamp": "2026-10-13T07:47:26",
+      "type": "饮食",
+      "event": "喝浓咖啡",
+      "details": {
+        "food": [
+          "浓咖啡",
+          "奶球2个"
+        ],
+        "meal": "早餐",
+        "portion": "1杯浓咖啡，奶球2个",
+        "calories_estimate": "约30-50千卡（AI估算）"
+      },
+      "source": "用户明确",
+      "note": "含咖啡因；今日第一杯"
+    },
+    {
+      "id": "rec_20261013_005",
+      "timestamp": "2026-10-13T07:50:15",
+      "type": "饮食",
+      "event": "喝纤维粉",
+      "details": {
+        "food": [
+          "Meta纤维粉"
+        ],
+        "meal": "加餐",
+        "portion": "1勺",
+        "calories_estimate": "约0-20千卡（AI估算，具体以包装营养成分为准）"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261013_006",
+      "timestamp": "2026-10-13T07:56:53",
+      "type": "健康",
+      "event": "服用异维A",
+      "details": {
+        "medication": "异维A",
+        "dose": "1粒"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261013_007",
+      "timestamp": "2026-10-13T09:02:55",
+      "type": "饮食",
+      "event": "提前吃午餐",
+      "details": {
+        "food": [
+          "塔斯汀汉堡2个",
+          "可乐1瓶"
+        ],
+        "meal": "午餐",
+        "portion": "2个汉堡、1瓶可乐",
+        "calories_estimate": "约1000-1300千卡（AI估算）"
+      },
+      "source": "用户明确",
+      "note": "午餐提前；汉堡和含糖可乐偏高油高糖"
+    },
+    {
+      "id": "rec_20261013_008",
+      "timestamp": "2026-10-13T09:02:55",
+      "type": "收支",
+      "event": "购买午餐",
+      "details": {
+        "direction": "支出",
+        "amount": 19.00,
+        "currency": "CNY",
+        "category": "餐饮",
+        "description": "塔斯汀汉堡2个、可乐1瓶",
+        "account": "",
+        "merchant": "塔斯汀"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261013_009",
+      "timestamp": "2026-10-13T09:03:51",
+      "type": "运动",
+      "event": "骑自行车上班",
+      "details": {
+        "activity": "骑自行车",
+        "duration": "未提供",
+        "intensity": "未提供",
+        "distance": "13公里",
+        "calories_burned": "约230-330千卡（AI估算）"
+      },
+      "source": "用户明确",
+      "note": "通勤骑行"
+    },
+    {
+      "id": "rec_20261013_010",
+      "timestamp": "2026-10-13T09:39:36",
+      "type": "工作",
+      "event": "开始工作",
+      "details": {
+        "content": "开始工作",
+        "duration": "进行中",
+        "output": "未提供"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261013_011",
+      "timestamp": "2026-10-13T09:49:15",
+      "type": "娱乐",
+      "event": "刷YouTube",
+      "details": {
+        "content": "YouTube视频",
+        "duration": "30分钟",
+        "platform": "YouTube",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": ""
+    },
+    {
+      "id": "rec_20261013_012",
+      "timestamp": "2026-10-13T10:29:39",
+      "type": "娱乐",
+      "event": "短暂打开知乎",
+      "details": {
+        "content": "知乎",
+        "duration": "约2分钟（AI估算）",
+        "platform": "知乎",
+        "category": "刷手机"
+      },
+      "source": "用户明确",
+      "note": "用户表示未浏览几分钟"
+    },
+    {
+      "id": "rec_20261013_013",
+      "timestamp": "2026-10-13T10:52:52",
+      "type": "学习",
+      "event": "刷英语单词和句子",
+      "details": {
+        "content": "英语单词和句子",
+        "progress": "30个",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "时长按题量估档"
+    },
+    {
+      "id": "rec_20261013_014",
+      "timestamp": "2026-10-13T10:52:52",
+      "type": "学习",
+      "event": "刷大模型应用开发面试题",
+      "details": {
+        "content": "大模型应用开发",
+        "progress": "约10道",
+        "method": "刷题",
+        "duration": "未提供"
+      },
+      "source": "用户明确",
+      "note": "时长按题量估档"
     }
   ],
   "daily_scores": [
     {
       "date": "2026-10-12",
-      "status": "进行中",
-      "updated_at": "2026-10-12T17:33:43",
-      "overall": 7,
+      "status": "当日已结",
+      "updated_at": "2026-10-13T07:13:45",
+      "overall": 8,
       "scores": {
         "学习": {
           "score": 9,
           "max": 10,
-          "note": "英语约140个+Java八股约20道+大模型约10道+面试题10道；按题量估档达100分钟以上9分，内容对目标有用已封顶"
+          "note": "英语单词和句子累计约170多个，另有Java八股、大模型应用和面试题记录；按题量估档已达100分钟以上，内容对目标有用，9分"
         },
         "工作": {
           "score": 6,
@@ -1273,24 +1592,68 @@
           "note": "基准6；午餐汉堡偏油-2"
         },
         "运动": {
-          "score": 8,
+          "score": 9,
           "max": 10,
-          "note": "骑车1小时达标"
+          "note": "今日骑车累计28公里（上午14公里+下班回家14公里），已满1小时有氧；累计距离明显，运动分加1"
         },
         "作息": {
-          "score": 7,
+          "score": 10,
           "max": 10,
-          "note": "基准5；7:52起床+2；入睡时间未记录"
+          "note": "昨晚23:00入睡、今早约7:14起床，睡眠约8小时14分钟；入睡在22:00–24:00 +2、起床在6:30–8:30 +2、睡眠约7–9小时 +1，按规则封顶10分"
         },
         "卫生": {
-          "score": 4,
+          "score": 8,
           "max": 10,
-          "note": "早上已刷牙+4；晚刷牙和餐后漱口尚未记录"
+          "note": "早上刷牙+4，晚间洗漱包含刷牙+4；餐后漱口未记录"
         },
         "自律": {
           "score": 8,
           "max": 10,
-          "note": "今日累计刷知乎35分钟（先前5分钟+本次30分钟），按30–60分钟档扣2分"
+          "note": "今日累计刷屏约50分钟（知乎35分钟+油管约15分钟），按30–60分钟档扣2分"
+        }
+      },
+      "source": "根据当日记录自动计算"
+    },
+    {
+      "date": "2026-10-13",
+      "status": "进行中",
+      "updated_at": "2026-10-13T09:02:55",
+      "overall": 5,
+      "scores": {
+        "学习": {
+          "score": 5,
+          "max": 10,
+          "note": "英语单词和句子30个、大模型应用开发题约10道；按题量估档约20–40分钟，内容对目标有用加1分"
+        },
+        "工作": {
+          "score": 3,
+          "max": 10,
+          "note": "已开始工作，时长进行中；暂按不足1小时计3分"
+        },
+        "饮食": {
+          "score": 4,
+          "max": 10,
+          "note": "基准6；午餐两个汉堡和含糖可乐，按高油高糖扣2分"
+        },
+        "运动": {
+          "score": 5,
+          "max": 10,
+          "note": "骑自行车上班13公里，时长未提供；按通勤骑行估算已超过30分钟"
+        },
+        "作息": {
+          "score": 7,
+          "max": 10,
+          "note": "今早约7:14起床，处于6:30–8:30区间；昨晚入睡已计入前一日"
+        },
+        "卫生": {
+          "score": 4,
+          "max": 10,
+          "note": "晨间洗漱包含刷牙+4"
+        },
+        "自律": {
+          "score": 8,
+          "max": 10,
+          "note": "今日刷屏约32分钟（YouTube 30分钟+知乎约2分钟），按30–60分钟档扣2分"
         }
       },
       "source": "根据当日记录自动计算"
