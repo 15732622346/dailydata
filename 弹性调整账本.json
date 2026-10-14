@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "记录现实生活中的不可避免偏差及其温和回归状态，不替代原始生活事实",
+    "source_rules": "个人生活记录系统规则.md",
+    "default_observation_days": 7,
+    "created": "2026-10-14"
+  },
+  "principles": [
+    "只记录相对于平常计划的偏差，不把整件事全部记为欠账",
+    "不同领域使用各自单位，不跨领域折算",
+    "后续只通过正常、可持续的行为逐步回归，不绝食、不跳餐、不惩罚性运动",
+    "原始估算和历史调整只追加，不抹除",
+    "到期后结束观察，不要求精确清零"
+  ],
+  "entry_template": {
+    "id": "adjustment_YYYYMMDD_001",
+    "date": "YYYY-MM-DD",
+    "domain": "饮食/运动/学习/工作/作息/其他",
+    "reason": "现实约束或不可避免安排",
+    "source_record_id": "关联我的生活记录.json中的原始事件ID",
+    "deviation": {
+      "description": "相对原计划的偏差，仅记录多出或未完成的部分",
+      "amount": null,
+      "range": "可选估算范围",
+      "unit": "按领域填写，例如kcal、分钟或次",
+      "estimate": true
+    },
+    "plan": {
+      "method": "温和、可持续的回归方式",
+      "deadline": "YYYY-MM-DD"
+    },
+    "adjustments": [
+      {
+        "date": "YYYY-MM-DD",
+        "amount": null,
+        "unit": "与该条目一致",
+        "source_record_id": "可选的后续事实记录ID",
+        "method": "实际发生的正常调整",
+        "remaining_after": null
+      }
+    ],
+    "remaining": {
+      "amount": null,
+      "unit": "与偏差相同；不可量化时填未量化"
+    },
+    "status": "观察中/已回归/观察结束",
+    "note": "不确定性、安全边界或其他说明"
+  },
+  "entries": []
+}
