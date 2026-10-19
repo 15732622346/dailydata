@@ -9,7 +9,9 @@
                                     "birth_year":  1993,
                                     "age":  35,
                                     "height_cm":  173,
-                                    "gender":  "男性"
+                                    "gender":  "男性",
+                                    "nickname": "李溃",
+                                    "nickname_note": "用户于2026-10-19明确自起，用于提醒自己放肆则易一溃千里；这是自我勉励，不上升为人格评价"
                                 },
                       "health":  {
                                      "current_weight_kg":  85,
@@ -3013,6 +3015,829 @@
                           },
                           "source": "用户明确",
                           "note": "用户同时确认按账本口径回调1000千卡；该回调按账面记录，不等同于测量所得的生理能量缺口"
+                      },
+                      {
+                          "id": "rec_20261016_005",
+                          "timestamp": "2026-10-16",
+                          "type": "娱乐",
+                          "event": "浏览Bilibili",
+                          "details": {
+                              "content": "Bilibili视频",
+                              "duration": "20分钟",
+                              "platform": "Bilibili",
+                              "category": "无目的刷视频"
+                          },
+                          "source": "用户明确",
+                          "note": "具体内容未提供；按自律规则15–30分钟区间扣1分"
+                      },
+                      {
+                          "id": "rec_20261016_006",
+                          "timestamp": "2026-10-16",
+                          "type": "其他",
+                          "event": "练习口琴",
+                          "details": {
+                              "activity": "口琴练习",
+                              "duration": "未提供",
+                              "purpose": "表达性兴趣与每日坚持"
+                          },
+                          "source": "用户明确",
+                          "note": "用户确认今日已完成"
+                      },
+                      {
+                          "id": "rec_20261016_007",
+                          "timestamp": "2026-10-16",
+                          "type": "其他",
+                          "event": "练习舞蹈",
+                          "details": {
+                              "activity": "舞蹈练习",
+                              "duration": "未提供",
+                              "purpose": "表达性兴趣与每日坚持"
+                          },
+                          "source": "用户明确",
+                          "note": "用户确认今日已完成"
+                      },
+                      {
+                          "id": "rec_20261016_008",
+                          "timestamp": "2026-10-16",
+                          "type": "健康",
+                          "event": "拉伸韧带",
+                          "details": {
+                              "activity": "温和拉伸",
+                              "duration": "未提供",
+                              "purpose": "每日身体维护"
+                          },
+                          "source": "用户明确",
+                          "note": "用户确认今日已完成"
+                      },
+                      {
+                          "id": "rec_20261016_009",
+                          "timestamp": "2026-10-16",
+                          "type": "运动",
+                          "event": "散步",
+                          "details": {
+                              "activity": "散步",
+                              "duration": "15分钟",
+                              "intensity": "低",
+                              "distance": "未提供",
+                              "calories_burned": "约50–75千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "用户确认完成"
+                      },
+                      {
+                          "id": "rec_20261016_010",
+                          "timestamp": "2026-10-16",
+                          "type": "其他",
+                          "event": "今日短日记",
+                          "details": {
+                              "content": "这几天睡得都不太好，有时是吃得太多，有时是喝酒太多。对自己的状态感到失望，想重新调整。",
+                              "mood": ["反思", "疲惫", "想改变"],
+                              "theme": "改善睡眠，停止暴食和饮酒循环"
+                          },
+                          "source": "用户明确",
+                          "note": "用户原话中带有自我否定；按中性方式记录为反思，不把它上升为人格评价"
+                      },
+                      {
+                          "id": "rec_20261016_011",
+                          "timestamp": "2026-10-16",
+                          "type": "饮食",
+                          "event": "喝无糖可乐",
+                          "details": {
+                              "food": ["无糖可乐"],
+                              "meal": "饮品",
+                              "portion": "1瓶",
+                              "calories_estimate": "约0–5千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "无糖可乐热量可忽略；饮用后提醒漱口，并注意当天不要继续叠加咖啡、能量饮料等含咖啡因饮品"
+                      },
+                      {
+                          "id": "rec_20261016_012",
+                          "timestamp": "2026-10-16",
+                          "type": "收支",
+                          "event": "购买无糖可乐",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 3.00,
+                              "currency": "CNY",
+                              "category": "饮料",
+                              "description": "无糖可乐1瓶",
+                              "account": "",
+                              "merchant": ""
+                          },
+                          "source": "用户明确",
+                          "note": "已买并喝掉"
+                      },
+                      {
+                          "id": "rec_20261016_013",
+                          "timestamp": "2026-10-16T10:30:00",
+                          "type": "娱乐",
+                          "event": "上厕所时看知乎",
+                          "details": {
+                              "content": "上大号时浏览知乎",
+                              "duration": "未提供（AI估算：约5–10分钟）",
+                              "platform": "知乎",
+                              "category": "社交媒体浏览"
+                          },
+                          "source": "用户明确",
+                          "note": "上午时段；时长未明确提供，按常规如厕时间估算"
+                      },
+                      {
+                          "id": "rec_20261016_014",
+                          "timestamp": "2026-10-16T08:00:00",
+                          "type": "娱乐",
+                          "event": "洗澡后刷B站",
+                          "details": {
+                              "content": "早上洗完澡后浏览哔哩哔哩",
+                              "duration": "30分钟",
+                              "platform": "哔哩哔哩",
+                              "category": "视频平台浏览"
+                          },
+                          "source": "用户明确",
+                          "note": "早上洗澡后；时长用户明确为30分钟"
+                      },
+                      {
+                          "id": "rec_20261016_015",
+                          "timestamp": "2026-10-16T12:30:00",
+                          "type": "饮食",
+                          "event": "吃卤蛋",
+                          "details": {
+                              "food": ["卤蛋"],
+                              "meal": "加餐",
+                              "portion": "2个",
+                              "calories_estimate": "约140–160千卡（AI估算，每个卤蛋约70–80千卡）",
+                              "protein_estimate": "约12–14克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261016_016",
+                          "timestamp": "2026-10-16T12:35:00",
+                          "type": "饮食",
+                          "event": "吃炖牛肉",
+                          "details": {
+                              "food": ["炖牛肉"],
+                              "meal": "加餐",
+                              "portion": "一小口",
+                              "calories_estimate": "约20–30千卡（AI估算）",
+                              "protein_estimate": "约3–5克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "仅一小口；热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261016_017",
+                          "timestamp": "2026-10-16",
+                          "type": "其他",
+                          "event": "今日感悟补充",
+                          "details": {
+                              "content": "摸鱼了好几十天，代码有点生疏了，果然人随时都得保持战斗状态，就算是玩也不能放松警惕。",
+                              "mood": ["警觉", "反思"],
+                              "theme": "技能退化警示，保持状态意识"
+                          },
+                          "source": "用户明确",
+                          "note": "对长期摸鱼导致技能生疏的反思；强调持续保持状态的重要性"
+                      },
+                      {
+                          "id": "rec_20261016_018",
+                          "timestamp": "2026-10-16",
+                          "type": "收支",
+                          "event": "美团电车",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 2.50,
+                              "currency": "CNY",
+                              "category": "交通",
+                              "description": "美团电车",
+                              "account": "",
+                              "merchant": "美团"
+                          },
+                          "source": "用户明确",
+                          "note": ""
+                      },
+                      {
+                          "id": "rec_20261016_019",
+                          "timestamp": "2026-10-16",
+                          "type": "运动",
+                          "event": "骑自行车",
+                          "details": {
+                              "activity": "骑自行车",
+                              "distance": "22公里",
+                              "duration": "未提供（AI估算：约60–80分钟）",
+                              "intensity": "中",
+                              "calories_burned": "约500–600千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "距离用户明确；时长和热量消耗为AI估算"
+                      },
+                      {
+                          "id": "rec_20261016_020",
+                          "timestamp": "2026-10-16T18:30:00",
+                          "type": "饮食",
+                          "event": "吃卤牛肉",
+                          "details": {
+                              "food": ["卤牛肉"],
+                              "meal": "加餐",
+                              "portion": "一小口",
+                              "calories_estimate": "约20–30千卡（AI估算）",
+                              "protein_estimate": "约3–5克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "第二次吃一小口；热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261016_021",
+                          "timestamp": "2026-10-16T19:00:00",
+                          "type": "饮食",
+                          "event": "吃白豆腐和卤蛋",
+                          "details": {
+                              "food": ["白豆腐", "卤蛋"],
+                              "meal": "晚餐",
+                              "portion": "白豆腐300克，卤蛋1个",
+                              "calories_estimate": "约280–320千卡（AI估算：豆腐约210–240千卡，卤蛋约70–80千卡）",
+                              "protein_estimate": "约30–35克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "白豆腐重量用户明确；热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261016_022",
+                          "timestamp": "2026-10-16",
+                          "type": "健康",
+                          "event": "晚间未洗漱",
+                          "details": {
+                              "activity": "洗漱",
+                              "status": "未完成",
+                              "date_referred": "2026-10-16"
+                          },
+                          "source": "用户明确",
+                          "note": "用户于次日（2026-10-17）补充说明昨晚未洗漱"
+                      },
+                      {
+                          "id": "rec_20261016_023",
+                          "timestamp": "2026-10-16",
+                          "type": "收支",
+                          "event": "购买无糖芬达、鸡蛋和牛肉",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 95.00,
+                              "currency": "CNY",
+                              "category": "餐饮",
+                              "description": "无糖芬达9瓶、鸡蛋两袋、牛肉两袋",
+                              "account": "",
+                              "merchant": ""
+                          },
+                          "source": "用户明确",
+                          "note": "用户于次日（2026-10-17）补充说明"
+                      },
+                      {
+                          "id": "rec_20261017_001",
+                          "timestamp": "2026-10-17T08:30:00",
+                          "type": "饮食",
+                          "event": "吃牛肉",
+                          "details": {
+                              "food": ["牛肉"],
+                              "meal": "早餐",
+                              "portion": "一小口",
+                              "calories_estimate": "约20–30千卡（AI估算）",
+                              "protein_estimate": "约3–5克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "仅一小口；热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261017_002",
+                          "timestamp": "2026-10-17T08:35:00",
+                          "type": "饮食",
+                          "event": "吃白豆腐",
+                          "details": {
+                              "food": ["白豆腐"],
+                              "meal": "早餐",
+                              "portion": "300克",
+                              "calories_estimate": "约210–240千卡（AI估算）",
+                              "protein_estimate": "约18–22克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "白豆腐重量用户明确；热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261017_003",
+                          "timestamp": "2026-10-17T09:00:00",
+                          "type": "娱乐",
+                          "event": "看B站",
+                          "details": {
+                              "content": "浏览哔哩哔哩",
+                              "duration": "20分钟",
+                              "platform": "哔哩哔哩",
+                              "category": "视频平台浏览"
+                          },
+                          "source": "用户明确",
+                          "note": "用户自述「罪过」；时长用户明确为20分钟"
+                      },
+                      {
+                          "id": "rec_20261017_004",
+                          "timestamp": "2026-10-17T09:20:00",
+                          "type": "其他",
+                          "event": "卸载B站",
+                          "details": {
+                              "action": "卸载应用",
+                              "app_name": "哔哩哔哩",
+                              "reason": "减少娱乐时间消耗"
+                          },
+                          "source": "用户明确",
+                          "note": "用户明确表示已卸载"
+                      },
+                      {
+                          "id": "rec_20261017_005",
+                          "timestamp": "2026-10-17T09:30:00",
+                          "type": "饮食",
+                          "event": "喝无糖魔爪",
+                          "details": {
+                              "food": ["无糖魔爪"],
+                              "meal": "饮品",
+                              "portion": "1罐",
+                              "calories_estimate": "约10–20千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "无糖能量饮料，含咖啡因；用户有失眠和焦虑问题，已在饮用前提醒但用户仍选择饮用"
+                      },
+                      {
+                          "id": "rec_20261017_006",
+                          "timestamp": "2026-10-17T09:40:00",
+                          "type": "作息",
+                          "event": "起床",
+                          "details": {
+                              "wake_time": "09:40:00",
+                              "sleep_quality": "未提供",
+                              "body_status": "未提供"
+                          },
+                          "source": "用户明确",
+                          "note": "起床时间用户明确"
+                      },
+                      {
+                          "id": "rec_20261017_007",
+                          "timestamp": "2026-10-17T10:00:00",
+                          "type": "饮食",
+                          "event": "吃白豆腐",
+                          "details": {
+                              "food": ["白豆腐"],
+                              "meal": "加餐",
+                              "portion": "300克",
+                              "calories_estimate": "约210–240千卡（AI估算）",
+                              "protein_estimate": "约18–22克（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "白豆腐重量用户明确；热量和蛋白质为AI估算；已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261017_008",
+                          "timestamp": "2026-10-17T10:10:00",
+                          "type": "健康",
+                          "event": "洗澡",
+                          "details": {
+                              "activity": "洗澡",
+                              "duration": "未提供",
+                              "status": "已完成"
+                          },
+                          "source": "用户明确",
+                          "note": "洗澡完成"
+                      },
+                      {
+                          "id": "rec_20261017_009",
+                          "timestamp": "2026-10-17T10:30:00",
+                          "type": "饮食",
+                          "event": "喝浓咖啡",
+                          "details": {
+                              "food": ["浓咖啡", "奶球"],
+                              "meal": "饮品",
+                              "portion": "1杯咖啡，加2个奶球",
+                              "calories_estimate": "约35–50千卡（AI估算：咖啡5–10千卡，奶球约15–20千卡/个）"
+                          },
+                          "source": "用户明确",
+                          "note": "浓咖啡含较高咖啡因；今日已饮用无糖魔爪，咖啡因叠加可能影响睡眠和焦虑；加奶球后含热量，已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261017_010",
+                          "timestamp": "2026-10-17T10:45:00",
+                          "type": "运动",
+                          "event": "简单拉伸",
+                          "details": {
+                              "activity": "拉伸",
+                              "duration": "2分钟",
+                              "intensity": "低",
+                              "calories_burned": "未提供（AI估算：约5千卡）"
+                          },
+                          "source": "用户明确",
+                          "note": "时长用户明确；热量消耗为AI估算"
+                      },
+                      {
+                          "id": "rec_20261017_011",
+                          "timestamp": "2026-10-17",
+                          "type": "其他",
+                          "event": "今日日记",
+                          "details": {
+                              "content": "昨天回家的时候忘了带安眠药，恐惧一下就上来了，然后又回来了，所以昨天就没有回家。睡眠让我恐惧。",
+                              "mood": ["恐惧", "焦虑"],
+                              "theme": "安眠药依赖与睡眠恐惧"
+                          },
+                          "source": "用户明确",
+                          "note": "用户对睡眠有明显恐惧情绪，对安眠药形成依赖；昨天因忘带药而改变原计划"
+                      },
+                      {
+                          "id": "rec_20261017_012",
+                          "timestamp": "2026-10-17",
+                          "type": "收支",
+                          "event": "购买火车票",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 28.00,
+                              "currency": "CNY",
+                              "category": "交通",
+                              "description": "火车票2张",
+                              "account": "",
+                              "merchant": ""
+                          },
+                          "source": "用户明确",
+                          "note": ""
+                      },
+                      {
+                          "id": "rec_20261017_013",
+                          "timestamp": "2026-10-17T11:00:00",
+                          "type": "娱乐",
+                          "event": "看B站",
+                          "details": {
+                              "content": "浏览哔哩哔哩",
+                              "duration": "2分钟",
+                              "platform": "哔哩哔哩",
+                              "category": "视频平台浏览"
+                          },
+                          "source": "用户明确",
+                          "note": "用户自述「罪过罪过」；时长用户明确为2分钟；此前于今日09:20记录已卸载B站"
+                      },
+                      {
+                          "id": "rec_20261017_014",
+                          "timestamp": "2026-10-17T11:05:00",
+                          "type": "学习",
+                          "event": "学习单词和句子",
+                          "details": {
+                              "content": "单词和句子",
+                              "duration": "1小时",
+                              "method": "学习",
+                              "progress": "未提供"
+                          },
+                          "source": "用户明确",
+                          "note": "时长用户明确"
+                      },
+                      {
+                          "id": "rec_20261017_015",
+                          "timestamp": "2026-10-17T12:10:00",
+                          "type": "运动",
+                          "event": "散步",
+                          "details": {
+                              "activity": "散步",
+                              "duration": "2小时",
+                              "intensity": "低到中",
+                              "calories_burned": "约500–600千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "时长用户明确；热量消耗为AI估算"
+                      },
+                      {
+                          "id": "rec_20261017_016",
+                          "timestamp": "2026-10-17",
+                          "type": "其他",
+                          "event": "今日日记补充",
+                          "details": {
+                              "content": "今天下雨了。回家之前我在外面瞎溜达了几个小时，真的很解压。人生就是瞎溜达、喝大水、睡大觉。我喜欢大自然，我喜欢溜达。先把体脂降下来，然后薄肌。",
+                              "mood": ["放松", "愉悦", "明确目标"],
+                              "theme": "享受自然、溜达解压，明确减脂增肌目标"
+                          },
+                          "source": "用户明确",
+                          "note": "用户表达对大自然和溜达的喜爱，感到解压；明确了先减脂后增肌的目标"
+                      },
+                      {
+                          "id": "rec_20261017_017",
+                          "timestamp": "2026-10-17T14:30:00",
+                          "type": "健康",
+                          "event": "医院拿药",
+                          "details": {
+                              "medication": "佐匹克隆",
+                              "purpose": "治疗失眠",
+                              "cost": 0,
+                              "location": "医院"
+                          },
+                          "source": "用户明确",
+                          "note": "去医院拿佐匹克隆（安眠药），未花费"
+                      },
+                      {
+                          "id": "rec_20261017_018",
+                          "timestamp": "2026-10-17T15:00:00",
+                          "type": "运动",
+                          "event": "公园赏雨",
+                          "details": {
+                              "activity": "公园赏雨/散步",
+                              "duration": "1小时",
+                              "intensity": "低",
+                              "calories_burned": "约150–200千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "时长用户明确；与之前记录的散步2小时是不同时段；热量消耗为AI估算"
+                      },
+                      {
+                          "id": "rec_20261017_019",
+                          "timestamp": "2026-10-17T16:00:00",
+                          "type": "其他",
+                          "event": "回家",
+                          "details": {
+                              "content": "等809路公交，赶火车，18:00到家",
+                              "destination": "家"
+                          },
+                          "source": "用户明确",
+                          "note": "乘公交和火车返回家中"
+                      },
+                      {
+                          "id": "rec_20261017_020",
+                          "timestamp": "2026-10-17T18:30:00",
+                          "type": "饮食",
+                          "event": "和女朋友吃饭",
+                          "details": {
+                              "food": ["未提供"],
+                              "meal": "晚餐",
+                              "portion": "未提供",
+                              "calories_estimate": "未提供"
+                          },
+                          "source": "用户明确",
+                          "note": "和女朋友一起吃饭；具体食物、分量和热量待用户补充"
+                      },
+                      {
+                          "id": "rec_20261017_021",
+                          "timestamp": "2026-10-17T19:30:00",
+                          "type": "运动",
+                          "event": "散步",
+                          "details": {
+                              "activity": "散步",
+                              "duration": "20分钟",
+                              "intensity": "低到中",
+                              "calories_burned": "约50–80千卡（AI估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "时长用户明确；热量消耗为AI估算"
+                      },
+                      {
+                          "id": "rec_20261017_022",
+                          "timestamp": "2026-10-17T20:00:00",
+                          "type": "饮食",
+                          "event": "家人聚餐吃烤肉",
+                          "details": {
+                              "food": ["烤肉"],
+                              "meal": "晚餐",
+                              "portion": "很饱",
+                              "calories_estimate": "约1200–1800千卡（AI估算，完整一餐）"
+                          },
+                          "source": "用户明确",
+                          "note": "家人聚餐，吃烤肉至很饱；属于难以回避的正常社交餐；已提醒漱口；相对平常饮食多出的部分将记入弹性账本"
+                      },
+                      {
+                          "id": "rec_20261018_001",
+                          "timestamp": "2026-10-18T06:59:00",
+                          "type": "作息",
+                          "event": "起床",
+                          "details": {
+                              "wake_time": "06:59:00",
+                              "sleep_quality": "未提供",
+                              "body_status": "未提供"
+                          },
+                          "source": "用户明确",
+                          "note": "用户说「我醒了」后要求记录醒来时间；按系统当前时间记录"
+                      },
+                      {
+                          "id": "rec_20261018_002",
+                          "timestamp": "2026-10-18T07:00:00",
+                          "type": "饮食",
+                          "event": "喝可乐和浓咖啡",
+                          "details": {
+                              "food": ["可乐", "浓咖啡", "奶球"],
+                              "meal": "饮品",
+                              "portion": "一小罐可乐，1杯浓咖啡加2个奶球",
+                              "calories_estimate": "约115–190千卡（AI估算：小罐可乐约80–140千卡，咖啡加2个奶球约35–50千卡）"
+                          },
+                          "source": "用户明确",
+                          "note": "未说明是否无糖可乐，按普通可乐估算；可乐和浓咖啡均含咖啡因；加奶球后含热量，已提醒漱口"
+                      },
+                      {
+                          "id": "rec_20261018_003",
+                          "timestamp": "2026-10-18T07:40:00",
+                          "type": "其他",
+                          "event": "整理屋子",
+                          "details": {
+                              "activity": "整理屋子",
+                              "duration": "十几分钟",
+                              "status": "已完成"
+                          },
+                          "source": "用户明确",
+                          "note": "时长用户明确为十几分钟"
+                      },
+                      {
+                          "id": "rec_20261018_004",
+                          "timestamp": "2026-10-18T07:46:00",
+                          "type": "收支",
+                          "event": "加油",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 350.00,
+                              "currency": "CNY",
+                              "category": "交通",
+                              "description": "加油",
+                              "account": "",
+                              "merchant": ""
+                          },
+                          "source": "用户明确",
+                          "note": ""
+                      },
+                      {
+                          "id": "rec_20261018_005",
+                          "timestamp": "2026-10-18T08:28:00",
+                          "type": "健康",
+                          "event": "洗冷水澡",
+                          "details": {
+                              "activity": "洗澡",
+                              "water_temperature": "冷水",
+                              "duration": "未提供",
+                              "status": "已完成"
+                          },
+                          "source": "用户明确",
+                          "note": "冷水澡完成"
+                      },
+                      {
+                          "id": "rec_20261018_006",
+                          "timestamp": "2026-10-18T08:28:00",
+                          "type": "其他",
+                          "event": "拖地",
+                          "details": {
+                              "activity": "拖地",
+                              "duration": "未提供",
+                              "status": "已完成"
+                          },
+                          "source": "用户明确",
+                          "note": "拖地完成"
+                      },
+                      {
+                          "id": "rec_20261018_007",
+                          "timestamp": "2026-10-18T11:27:00",
+                          "type": "收支",
+                          "event": "超市买吃的",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 89.00,
+                              "currency": "CNY",
+                              "category": "餐饮",
+                              "description": "超市买吃的",
+                              "account": "",
+                              "merchant": ""
+                          },
+                          "source": "用户明确",
+                          "note": "具体食物未提供"
+                      },
+                      {
+                          "id": "rec_20261018_008",
+                          "timestamp": "2026-10-18T11:27:00",
+                          "type": "收支",
+                          "event": "赵一鸣购物",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 79.00,
+                              "currency": "CNY",
+                              "category": "餐饮",
+                              "description": "赵一鸣购物",
+                              "account": "",
+                              "merchant": "赵一鸣"
+                          },
+                          "source": "用户明确",
+                          "note": "具体商品未提供"
+                      },
+                      {
+                          "id": "rec_20261018_009",
+                          "timestamp": "2026-10-18T23:32:00",
+                          "type": "饮食",
+                          "event": "吃零食",
+                          "details": {
+                              "food": ["零食"],
+                              "meal": "加餐",
+                              "portion": "未提供",
+                              "calories_estimate": "约5000千卡（用户估算）"
+                          },
+                          "source": "用户明确",
+                          "note": "计划外零食，热量由用户给出；已提醒漱口；不按家人聚餐开新账"
+                      },
+                      {
+                          "id": "rec_20261019_001",
+                          "timestamp": "2026-10-19T07:43:00",
+                          "type": "其他",
+                          "event": "关于不舍得扔食物的反思",
+                          "details": {
+                              "content": "发现自己有小农思想，不舍得扔食物，导致一直在无休无止地开吃。下次应该先问应不应该扔。",
+                              "mood": ["反思"],
+                              "theme": "食物浪费焦虑与计划外进食"
+                          },
+                          "source": "用户明确",
+                          "note": "用户原话中的「破解」按语境记为开吃；这是自我观察，不上升为人格评价"
+                      },
+                      {
+                          "id": "rec_20261019_002",
+                          "timestamp": "2026-10-19T07:57:00",
+                          "type": "收支",
+                          "event": "给女朋友转账",
+                          "details": {
+                              "direction": "支出",
+                              "amount": 528.00,
+                              "currency": "CNY",
+                              "category": "转账",
+                              "description": "给女朋友转账528元",
+                              "account": "",
+                              "merchant": ""
+                          },
+                          "source": "用户明确",
+                          "note": ""
+                      },
+                      {
+                          "id": "rec_20261018_010",
+                          "timestamp": "2026-10-18",
+                          "type": "其他",
+                          "event": "昨日日记补记",
+                          "details": {
+                              "content": "今天吃了好多食物和零食，晚上也没有睡好。一个特点是不舍得浪费东西，导致后面一系列事情发生。很多事情都是这样，一开了口子根本就刹不住。以后遇到这种问题一定要注意。昨天和女朋友缠绵，但女朋友不让性交，导致下体一直勃起。",
+                              "mood": ["反思", "疲惫"],
+                              "theme": "开口子后难以刹车、睡眠差、亲密后未性交"
+                          },
+                          "source": "用户明确",
+                          "note": "用户于2026-10-19补记；按中性方式记录，不上升为人格评价；腰酸记为次日身体状态"
+                      },
+                      {
+                          "id": "rec_20261019_003",
+                          "timestamp": "2026-10-19T07:57:00",
+                          "type": "健康",
+                          "event": "腰酸",
+                          "details": {
+                              "body_status": "腰酸、腰疼",
+                              "related_to": "前一日与女朋友缠绵、亲嘴后持续勃起，前列腺液流出较多"
+                          },
+                          "source": "用户明确",
+                          "note": "用户自述今日腰酸腰疼，关联前一日亲密行为；不替代医学判断"
+                      },
+                      {
+                          "id": "rec_20261019_004",
+                          "timestamp": "2026-10-19T08:17:00",
+                          "type": "其他",
+                          "event": "今日日记",
+                          "details": {
+                              "content": "已经很久没有睡一个很好的晚觉了。自从戒烟以来，一直都在喝酒或者吃零食，已经持续了三个多月。一定要改变，必须要改变。而且有丢三落四的坏习惯。现在觉得很无助，也不知道怎么办了。下次一定不要和女朋友亲嘴了，搞得前列腺液流了好多，腰疼。为了洗心革面，给自己起昵称「李溃」，时刻勉励自己：如果放肆，很容易一溃千里。既往不咎，从今天开始好好经营自己的人生。今天要好好检讨一下。",
+                              "mood": ["疲惫", "决心", "无助"],
+                              "theme": "戒烟后睡眠差、用酒和零食替代、决心改变、亲密后身体不适、既往不咎"
+                          },
+                          "source": "用户明确",
+                          "note": "用户自述持续约三个多月；按中性方式记录，不上升为人格评价"
+                      },
+                      {
+                          "id": "rec_20261019_005",
+                          "timestamp": "2026-10-19T07:00:00",
+                          "type": "作息",
+                          "event": "起床",
+                          "details": {
+                              "wake_time": "07:00:00",
+                              "sleep_quality": "未提供",
+                              "body_status": "腰酸"
+                          },
+                          "source": "用户明确",
+                          "note": "用户明确七点起床"
+                      },
+                      {
+                          "id": "rec_20261019_006",
+                          "timestamp": "2026-10-19T07:10:00",
+                          "type": "健康",
+                          "event": "洗冷水澡",
+                          "details": {
+                              "activity": "洗澡",
+                              "water_temperature": "冷水",
+                              "duration": "未提供",
+                              "status": "已完成"
+                          },
+                          "source": "用户明确",
+                          "note": "冷水澡完成；未确认是否刷牙"
+                      },
+                      {
+                          "id": "rec_20261019_007",
+                          "timestamp": "2026-10-19T07:20:00",
+                          "type": "娱乐",
+                          "event": "早上刷B站",
+                          "details": {
+                              "content": "早上起来浏览哔哩哔哩",
+                              "duration": "20分钟",
+                              "platform": "哔哩哔哩",
+                              "category": "视频平台浏览"
+                          },
+                          "source": "用户明确",
+                          "note": "用户作为今日检讨事项明确说明；时长用户明确为20分钟"
                       }
                 ],
     "daily_scores":  [
@@ -3191,6 +4016,50 @@
                                                    }
                                         },
                              "source":  "根据当日记录自动计算"
+                         },
+                         {
+                             "date": "2026-10-19",
+                             "status": "进行中",
+                             "updated_at": "2026-10-19T08:32:00",
+                             "overall": 3,
+                             "scores": {
+                                 "学习": {
+                                     "score": 0,
+                                     "max": 10,
+                                     "note": "尚无学习记录"
+                                 },
+                                 "工作": {
+                                     "score": 0,
+                                     "max": 10,
+                                     "note": "尚无工作记录"
+                                 },
+                                 "饮食": {
+                                     "score": 6,
+                                     "max": 10,
+                                     "note": "基准6；尚无当日饮食记录"
+                                 },
+                                 "运动": {
+                                     "score": 0,
+                                     "max": 10,
+                                     "note": "尚无运动记录"
+                                 },
+                                 "作息": {
+                                     "score": 7,
+                                     "max": 10,
+                                     "note": "基准5；七点起床，落在6:30–8:30 +2；入睡时间未记"
+                                 },
+                                 "卫生": {
+                                     "score": 1,
+                                     "max": 10,
+                                     "note": "有冷水澡，未确认刷牙，按有洗漱未确认刷牙 +1"
+                                 },
+                                 "自律": {
+                                     "score": 9,
+                                     "max": 10,
+                                     "note": "早上刷B站20分钟，按15–30分钟区间扣1分"
+                                 }
+                             },
+                             "source": "根据当日记录自动计算"
                          }
                      ]
 }

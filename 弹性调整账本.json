@@ -73,14 +73,88 @@
           "source_record_id": "rec_20261016_004",
           "method": "本次回调先结清上一条目700千卡，剩余300千卡回调至本条目",
           "remaining_after": 2700
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 500,
+          "unit": "kcal（用户确认的账面回调量）",
+          "source_record_id": "rec_20261016_019",
+          "method": "骑行22公里，约消耗500千卡，用户确认用于还账",
+          "remaining_after": 2200
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 300,
+          "unit": "kcal（用户确认的账面回调量）",
+          "source_record_id": null,
+          "method": "用户确认再还300千卡",
+          "remaining_after": 1900
+        },
+        {
+          "date": "2026-10-18",
+          "amount": 300,
+          "unit": "kcal（用户确认的账面回调量）",
+          "source_record_id": null,
+          "method": "用户确认还300千卡",
+          "remaining_after": 1600
         }
       ],
       "remaining": {
-        "amount": 2700,
-        "unit": "kcal（账面估算余额：3000−300；不是测量所得的生理能量缺口）"
+        "amount": 1600,
+        "unit": "kcal（账面估算余额：3000−300−500−300−300；不是测量所得的生理能量缺口）"
       },
       "status": "观察中",
       "note": "这是加班过晚后的实际饮食偏差；热量按AI区间中值记账，不构成零食或酒水例外。"
+    },
+    {
+      "id": "adjustment_20261017_001",
+      "date": "2026-10-17",
+      "domain": "饮食",
+      "reason": "家人聚餐，难以回避的正常社交餐",
+      "source_record_id": "rec_20261017_022",
+      "deviation": {
+        "description": "烤肉聚餐相对平常晚餐（约500–700千卡）多出的热量估算",
+        "amount": 900,
+        "range": "约700–1100千卡（AI估算，完整摄入约1200–1800千卡，扣除正常晚餐部分）",
+        "unit": "kcal",
+        "estimate": true
+      },
+      "plan": {
+        "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
+        "deadline": "2026-10-24"
+      },
+      "adjustments": [],
+      "remaining": {
+        "amount": 900,
+        "unit": "kcal（账面估算余额；不是测量所得的生理能量缺口）"
+      },
+      "status": "观察中",
+      "note": "家人聚餐属于确实难以回避的正常社交餐；只估算相对平常晚餐多出的部分；不视为减脂失败；估算不确定性较大"
+    },
+    {
+      "id": "adjustment_20261018_001",
+      "date": "2026-10-18",
+      "domain": "饮食",
+      "reason": "计划外零食，用户要求补记到账本",
+      "source_record_id": "rec_20261018_009",
+      "deviation": {
+        "description": "零食总摄入估算",
+        "amount": 5000,
+        "range": "约5000千卡（用户估算）",
+        "unit": "kcal",
+        "estimate": true
+      },
+      "plan": {
+        "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
+        "deadline": "2026-10-25"
+      },
+      "adjustments": [],
+      "remaining": {
+        "amount": 5000,
+        "unit": "kcal（账面估算余额；不是测量所得的生理能量缺口）"
+      },
+      "status": "观察中",
+      "note": "这是已经发生的计划外零食补记；不构成零食或酒水例外，也不能借此继续扩大偏差。"
     },
     {
       "id": "adjustment_20261015_001",
