@@ -97,11 +97,19 @@
           "source_record_id": null,
           "method": "用户确认还300千卡",
           "remaining_after": 1600
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 400,
+          "unit": "kcal（用户确认的账面回调量）",
+          "source_record_id": "rec_20261020_056",
+          "method": "用户确认还400千卡；先结到本条目",
+          "remaining_after": 1200
         }
       ],
       "remaining": {
-        "amount": 1600,
-        "unit": "kcal（账面估算余额：3000−300−500−300−300；不是测量所得的生理能量缺口）"
+        "amount": 1200,
+        "unit": "kcal（账面估算余额：3000−300−500−300−300−400；不是测量所得的生理能量缺口）"
       },
       "status": "观察中",
       "note": "这是加班过晚后的实际饮食偏差；热量按AI区间中值记账，不构成零食或酒水例外。"
