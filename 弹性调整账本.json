@@ -1,9 +1,10 @@
 {
   "meta": {
-    "version": "1.0",
+    "version": "1.1",
     "description": "记录现实生活中的不可避免偏差及其温和回归状态，不替代原始生活事实",
     "source_rules": "个人生活记录系统规则.md",
-    "default_observation_days": 7,
+    "default_observation_days": null,
+    "observation_policy": "无期限挂账：2026-10-25 取消7天观察期，账目不设到期时间，保留至 remaining 归零或用户明确封存；不因到期自动清零或作废",
     "created": "2026-10-14"
   },
   "principles": [
@@ -11,7 +12,7 @@
     "不同领域使用各自单位，不跨领域折算",
     "后续只通过正常、可持续的行为逐步回归，不绝食、不跳餐、不惩罚性运动",
     "原始估算和历史调整只追加，不抹除",
-    "到期后结束观察，不要求精确清零"
+    "账目无到期时间，长期保留至 remaining 归零或用户明确封存；不要求精确清零"
   ],
   "entry_template": {
     "id": "adjustment_YYYYMMDD_001",
@@ -28,7 +29,7 @@
     },
     "plan": {
       "method": "温和、可持续的回归方式",
-      "deadline": "YYYY-MM-DD"
+      "deadline": null
     },
     "adjustments": [
       {
@@ -44,7 +45,7 @@
       "amount": null,
       "unit": "与偏差相同；不可量化时填未量化"
     },
-    "status": "观察中/已回归/观察结束",
+    "status": "观察中/已回归/已封存",
     "note": "不确定性、安全边界或其他说明"
   },
   "entries": [
@@ -63,7 +64,7 @@
       },
       "plan": {
         "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
-        "deadline": "2026-10-23"
+        "deadline": null
       },
       "adjustments": [
         {
@@ -129,7 +130,7 @@
       },
       "plan": {
         "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
-        "deadline": "2026-10-24"
+        "deadline": null
       },
       "adjustments": [],
       "remaining": {
@@ -154,12 +155,21 @@
       },
       "plan": {
         "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
-        "deadline": "2026-10-25"
+        "deadline": null
       },
-      "adjustments": [],
+      "adjustments": [
+        {
+          "date": "2026-10-25",
+          "amount": 400,
+          "unit": "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
+          "source_record_id": "rec_20261025_017",
+          "method": "用户确认还账400千卡，结到本条零食账",
+          "remaining_after": 4600
+        }
+      ],
       "remaining": {
-        "amount": 5000,
-        "unit": "kcal（账面估算余额；不是测量所得的生理能量缺口）"
+        "amount": 4600,
+        "unit": "kcal（账面估算余额：5000−400；不是测量所得的生理能量缺口）"
       },
       "status": "观察中",
       "note": "这是已经发生的计划外零食补记；不构成零食或酒水例外，也不能借此继续扩大偏差。"
@@ -179,7 +189,7 @@
       },
       "plan": {
         "method": "之后恢复正常、规律饮食和日常活动，在约一周趋势中慢慢消化偏差；不绝食、不跳餐、不惩罚性运动",
-        "deadline": "2026-10-22"
+        "deadline": null
       },
       "adjustments": [
         {
@@ -221,7 +231,7 @@
       },
       "plan": {
       "method": "优先休息；按精力恢复日常练习，不双倍补做，不把遗漏变成惩罚性欠债",
-      "deadline": "2026-10-21"
+      "deadline": null
       },
       "adjustments": [
         {
@@ -263,7 +273,7 @@
       },
       "plan": {
         "method": "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
-        "deadline": "2026-10-27"
+        "deadline": null
       },
       "adjustments": [],
       "remaining": {
@@ -288,7 +298,7 @@
       },
       "plan": {
         "method": "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
-        "deadline": "2026-10-28"
+        "deadline": null
       },
       "adjustments": [],
       "remaining": {
