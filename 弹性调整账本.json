@@ -315,6 +315,31 @@
       },
       "status": "观察中",
       "note": "计入无目的刷屏，不羞辱；自律分按当天累计时长计算。"
+    },
+    {
+      "id": "adjustment_20261027_001",
+      "date": "2026-10-27",
+      "domain": "记录",
+      "reason": "用户说提交时，当日生活记录不足50条",
+      "source_record_id": null,
+      "deviation": {
+        "description": "2026-10-27提交时已有47条生活记录，相对每天至少50条少3条",
+        "amount": 3,
+        "range": "3条",
+        "unit": "条",
+        "estimate": false
+      },
+      "plan": {
+        "method": "之后某天实际超过50条的部分，按条一对一回补；不跨领域用运动、少吃或其他事项折算，不要求双倍补记",
+        "deadline": null
+      },
+      "adjustments": [],
+      "remaining": {
+        "amount": 3,
+        "unit": "条"
+      },
+      "status": "观察中",
+      "note": "提交时点统计，不追溯此前日期。不够不羞辱、不扣自律分，也不编造事件凑条数。"
     }
   ]
 }
