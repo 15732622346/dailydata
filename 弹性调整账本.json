@@ -1,387 +1,422 @@
-{
-  "meta": {
-    "version": "1.1",
-    "description": "记录现实生活中的不可避免偏差及其温和回归状态，不替代原始生活事实",
-    "source_rules": "个人生活记录系统规则.md",
-    "default_observation_days": null,
-    "observation_policy": "无期限挂账：2026-10-25 取消7天观察期，账目不设到期时间，保留至 remaining 归零或用户明确封存；不因到期自动清零或作废",
-    "created": "2026-10-14"
-  },
-  "principles": [
-    "只记录相对于平常计划的偏差，不把整件事全部记为欠账",
-    "不同领域使用各自单位，不跨领域折算",
-    "后续只通过正常、可持续的行为逐步回归，不绝食、不跳餐、不惩罚性运动",
-    "原始估算和历史调整只追加，不抹除",
-    "账目无到期时间，长期保留至 remaining 归零或用户明确封存；不要求精确清零"
-  ],
-  "entry_template": {
-    "id": "adjustment_YYYYMMDD_001",
-    "date": "YYYY-MM-DD",
-    "domain": "饮食/运动/学习/工作/作息/其他",
-    "reason": "现实约束或不可避免安排",
-    "source_record_id": "关联我的生活记录.json中的原始事件ID",
-    "deviation": {
-      "description": "相对原计划的偏差，仅记录多出或未完成的部分",
-      "amount": null,
-      "range": "可选估算范围",
-      "unit": "按领域填写，例如kcal、分钟或次",
-      "estimate": true
-    },
-    "plan": {
-      "method": "温和、可持续的回归方式",
-      "deadline": null
-    },
-    "adjustments": [
-      {
-        "date": "YYYY-MM-DD",
-        "amount": null,
-        "unit": "与该条目一致",
-        "source_record_id": "可选的后续事实记录ID",
-        "method": "实际发生的正常调整",
-        "remaining_after": null
-      }
-    ],
-    "remaining": {
-      "amount": null,
-      "unit": "与偏差相同；不可量化时填未量化"
-    },
-    "status": "观察中/已回归/已封存",
-    "note": "不确定性、安全边界或其他说明"
-  },
-  "entries": [
-    {
-      "id": "adjustment_20261016_001",
-      "date": "2026-10-16",
-      "domain": "饮食",
-      "reason": "昨晚加班过晚后的夜间大量进食",
-      "source_record_id": "rec_20261016_001",
-      "deviation": {
-        "description": "干脆面、辣片、酸奶、冰淇淋、果冻和红豆沙点心的总摄入估算",
-        "amount": 3000,
-        "range": "约2500–3500千卡（AI估算）",
-        "unit": "kcal",
-        "estimate": true
-      },
-      "plan": {
-        "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
-        "deadline": null
-      },
-      "adjustments": [
-        {
-          "date": "2026-10-16",
-          "amount": 300,
-          "unit": "kcal（本次1000千卡回调中，结转至本条目的账面回调量）",
-          "source_record_id": "rec_20261016_004",
-          "method": "本次回调先结清上一条目700千卡，剩余300千卡回调至本条目",
-          "remaining_after": 2700
-        },
-        {
-          "date": "2026-10-16",
-          "amount": 500,
-          "unit": "kcal（用户确认的账面回调量）",
-          "source_record_id": "rec_20261016_019",
-          "method": "骑行22公里，约消耗500千卡，用户确认用于还账",
-          "remaining_after": 2200
-        },
-        {
-          "date": "2026-10-16",
-          "amount": 300,
-          "unit": "kcal（用户确认的账面回调量）",
-          "source_record_id": null,
-          "method": "用户确认再还300千卡",
-          "remaining_after": 1900
-        },
-        {
-          "date": "2026-10-18",
-          "amount": 300,
-          "unit": "kcal（用户确认的账面回调量）",
-          "source_record_id": null,
-          "method": "用户确认还300千卡",
-          "remaining_after": 1600
-        },
-        {
-          "date": "2026-10-20",
-          "amount": 400,
-          "unit": "kcal（用户确认的账面回调量）",
-          "source_record_id": "rec_20261020_056",
-          "method": "用户确认还400千卡；先结到本条目",
-          "remaining_after": 1200
-        },
-        {
-          "date": "2026-10-25",
-          "amount": 400,
-          "unit": "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
-          "source_record_id": "rec_20261025_017",
-          "method": "用户确认还账400千卡，按v1.29结清顺序（先结最早未清账目）结到本条",
-          "remaining_after": 800
-        }
-        ,
-        {
-          "date": "2026-10-26",
-          "amount": 300,
-          "unit": "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
-          "source_record_id": "rec_20261026_059",
-          "method": "用户于2026-10-27确认昨天还账300千卡；未指定账目，按发生日期由早到晚结到最早未清饮食账",
-          "remaining_after": 500
-        }
-      ],
-      "remaining": {
-        "amount": 500,
-        "unit": "kcal（账面估算余额：3000−300−500−300−300−400−400−300；不是测量所得的生理能量缺口）"
-      },
-      "status": "观察中",
-      "note": "这是加班过晚后的实际饮食偏差；热量按AI区间中值记账，不构成零食或酒水例外。"
-    },
-    {
-      "id": "adjustment_20261017_001",
-      "date": "2026-10-17",
-      "domain": "饮食",
-      "reason": "家人聚餐，难以回避的正常社交餐",
-      "source_record_id": "rec_20261017_022",
-      "deviation": {
-        "description": "烤肉聚餐相对平常晚餐（约500–700千卡）多出的热量估算",
-        "amount": 900,
-        "range": "约700–1100千卡（AI估算，完整摄入约1200–1800千卡，扣除正常晚餐部分）",
-        "unit": "kcal",
-        "estimate": true
-      },
-      "plan": {
-        "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
-        "deadline": null
-      },
-      "adjustments": [],
-      "remaining": {
-        "amount": 900,
-        "unit": "kcal（账面估算余额；不是测量所得的生理能量缺口）"
-      },
-      "status": "观察中",
-      "note": "家人聚餐属于确实难以回避的正常社交餐；只估算相对平常晚餐多出的部分；不视为减脂失败；估算不确定性较大"
-    },
-    {
-      "id": "adjustment_20261018_001",
-      "date": "2026-10-18",
-      "domain": "饮食",
-      "reason": "计划外零食，用户要求补记到账本",
-      "source_record_id": "rec_20261018_009",
-      "deviation": {
-        "description": "零食总摄入估算",
-        "amount": 5000,
-        "range": "约5000千卡（用户估算）",
-        "unit": "kcal",
-        "estimate": true
-      },
-      "plan": {
-        "method": "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
-        "deadline": null
-      },
-      "adjustments": [],
-      "remaining": {
-        "amount": 5000,
-        "unit": "kcal（账面估算余额；不是测量所得的生理能量缺口）"
-      },
-      "status": "观察中",
-      "note": "这是已经发生的计划外零食补记；不构成零食或酒水例外，也不能借此继续扩大偏差。2026-10-25 曾将一笔400千卡回调挂在本条，按 v1.29 结清顺序改为挂到最早的未清饮食账 adjustment_20261016_001，本条恢复5000。"
-    },
-    {
-      "id": "adjustment_20261015_001",
-      "date": "2026-10-15",
-      "domain": "饮食",
-      "reason": "早晨饮用啤酒并吃较多零食",
-      "source_record_id": "rec_20261015_001",
-      "deviation": {
-      "description": "按用户指定的账本口径，将本次早晨饮食记为约1700千卡待回调额度",
-      "amount": 1700,
-      "range": "约1700千卡（用户估算，用作账面起始额度）",
-        "unit": "kcal",
-        "estimate": true
-      },
-      "plan": {
-        "method": "之后恢复正常、规律饮食和日常活动，在约一周趋势中慢慢消化偏差；不绝食、不跳餐、不惩罚性运动",
-        "deadline": null
-      },
-      "adjustments": [
-        {
-          "date": "2026-10-15",
-          "amount": 1000,
-          "unit": "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
-          "source_record_id": "rec_20261015_003",
-          "method": "用户确认午餐未额外进食，并按其账本口径回调约1000千卡",
-          "remaining_after": null
-        },
-        {
-          "date": "2026-10-16",
-          "amount": 700,
-          "unit": "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
-          "source_record_id": "rec_20261016_004",
-          "method": "本次回调先结清该条目剩余700千卡",
-          "remaining_after": 0
-        }
-      ],
-      "remaining": {
-        "amount": 0,
-        "unit": "kcal（账面估算余额：1700−1000−700；不是测量所得的生理能量缺口）"
-      },
-      "status": "已回调",
-      "note": "按用户指定的账本口径，以早晨约1700千卡作为账面起始额度；此前回调1000千卡后剩余700千卡，本次先结清该条目。以上为估算记账值，不代表测得的生理能量缺口；后续调整保持渐进，不绝食、不跳餐、不惩罚性运动。"
-    },
-    {
-      "id": "adjustment_20261014_001",
-      "date": "2026-10-14",
-      "domain": "每日坚持目标",
-      "reason": "晚间太困，未练口琴和舞蹈",
-      "source_record_id": "rec_20261014_034",
-      "deviation": {
-        "description": "今日口琴、舞蹈两项未完成",
-        "amount": 2,
-        "range": null,
-        "unit": "项目",
-        "estimate": false
-      },
-      "plan": {
-      "method": "优先休息；按精力恢复日常练习，不双倍补做，不把遗漏变成惩罚性欠债",
-      "deadline": null
-      },
-      "adjustments": [
-        {
-          "date": "2026-10-15",
-          "amount": 1,
-          "unit": "项目",
-          "source_record_id": "rec_20261015_005",
-          "method": "用户于次日完成口琴练习，按用户意图补回前一日未完成项目",
-          "remaining_after": 1
-        },
-        {
-          "date": "2026-10-15",
-          "amount": 1,
-          "unit": "项目",
-          "source_record_id": "rec_20261015_006",
-          "method": "用户于次日完成舞蹈练习，按用户意图补回前一日未完成项目",
-          "remaining_after": 0
-        }
-      ],
-      "remaining": {
-        "amount": 0,
-        "unit": "项目"
-      },
-      "status": "已回归",
-      "note": "两项是长期兴趣目标；用户于2026-10-15完成口琴和舞蹈，并明确表示已补回前一日未完成的项目。10月14日未练的事实保留，补回记录不改写历史。"
-    },
-    {
-      "id": "adjustment_20261020_001",
-      "date": "2026-10-20",
-      "domain": "刷屏",
-      "reason": "当日无目的刷屏超过每天30分钟额度",
-      "source_record_id": "rec_20261020_055",
-      "deviation": {
-        "description": "当日无目的刷屏约105分钟，相对每天30分钟额度多出的部分",
-        "amount": 75,
-        "range": "约75分钟（早间约5分钟+温习对佛的描述20分钟+午后约5分钟+边工作约15分钟+睡前B站油管60分钟，合计约105分钟）",
-        "unit": "分钟",
-        "estimate": true
-      },
-      "plan": {
-        "method": "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
-        "deadline": null
-      },
-      "adjustments": [],
-      "remaining": {
-        "amount": 75,
-        "unit": "分钟"
-      },
-      "status": "观察中",
-      "note": "计入无目的刷屏，不含边走边学；自律分仍按评分规则计算，账本不另扣一项。不羞辱。"
-    },
-    {
-      "id": "adjustment_20261021_001",
-      "date": "2026-10-21",
-      "domain": "刷屏",
-      "reason": "当日无目的刷屏超过每天30分钟额度",
-      "source_record_id": "rec_20261021_052",
-      "deviation": {
-        "description": "今日无目的刷屏约60分钟，相对每天30分钟额度多出的部分",
-        "amount": 30,
-        "range": "约30分钟（前一段哔哩哔哩30分钟，后续视频30分钟，合计约60分钟）",
-        "unit": "分钟",
-        "estimate": true
-      },
-      "plan": {
-        "method": "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
-        "deadline": null
-      },
-      "adjustments": [],
-      "remaining": {
-        "amount": 30,
-        "unit": "分钟"
-      },
-      "status": "观察中",
-      "note": "计入无目的刷屏，不羞辱；自律分按当天累计时长计算。"
-    },
-    {
-      "id": "adjustment_20261027_001",
-      "date": "2026-10-27",
-      "domain": "记录",
-      "reason": "用户说提交时，当日生活记录不足50条",
-      "source_record_id": null,
-      "deviation": {
-        "description": "2026-10-27提交时已有47条生活记录，相对每天至少50条少3条",
-        "amount": 3,
-        "range": "3条",
-        "unit": "条",
-        "estimate": false
-      },
-      "plan": {
-        "method": "之后某天实际超过50条的部分，按条一对一回补；不跨领域用运动、少吃或其他事项折算，不要求双倍补记",
-        "deadline": null
-      },
-      "adjustments": [
-        {
-          "date": "2026-10-27",
-          "amount": 2,
-          "unit": "条",
-          "source_record_id": "rec_20261027_048,rec_20261027_049",
-          "method": "提交后又补记音乐和舞蹈两条，当日条数从47增至49；原差额3条不抹除",
-          "remaining_after": 1
-        },
-        {
-          "date": "2026-10-27",
-          "amount": 1,
-          "unit": "条",
-          "source_record_id": "rec_20261027_050",
-          "method": "同日再补记晚间哔哩哔哩一条，当日条数达到50；原差额3条不抹除",
-          "remaining_after": 0
-        }
-      ],
-      "remaining": {
-        "amount": 0,
-        "unit": "条"
-      },
-      "status": "已回归",
-      "note": "提交时点是47条、差额3条。随后同日补记音乐、舞蹈和晚间哔哩哔哩共3条，当日达到50条，剩余0条。原差额不抹除。不够不羞辱、不扣自律分，也不编造事件凑条数。"
-    },
-    {
-      "id": "adjustment_20261027_002",
-      "date": "2026-10-27",
-      "domain": "刷屏",
-      "reason": "当日无目的刷屏超过每天30分钟额度",
-      "source_record_id": "rec_20261027_050",
-      "deviation": {
-        "description": "今日无目的刷屏合计50分钟，相对每天30分钟额度多出的部分",
-        "amount": 20,
-        "range": "20分钟（早上哔哩哔哩10分钟，11:39无目的视频20分钟，22:38哔哩哔哩20分钟）",
-        "unit": "分钟",
-        "estimate": false
-      },
-      "plan": {
-        "method": "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
-        "deadline": null
-      },
-      "adjustments": [],
-      "remaining": {
-        "amount": 20,
-        "unit": "分钟"
-      },
-      "status": "观察中",
-      "note": "用户明确20分钟并认罚。只把超出30分钟额度的20分钟入账，不羞辱。自律分按当天累计时长另算。"
-    }
-  ]
+﻿{
+    "meta":  {
+                 "version":  "1.1",
+                 "description":  "记录现实生活中的不可避免偏差及其温和回归状态，不替代原始生活事实",
+                 "source_rules":  "个人生活记录系统规则.md",
+                 "default_observation_days":  null,
+                 "observation_policy":  "无期限挂账：2026-10-25 取消7天观察期，账目不设到期时间，保留至 remaining 归零或用户明确封存；不因到期自动清零或作废",
+                 "created":  "2026-10-14"
+             },
+    "principles":  [
+                       "只记录相对于平常计划的偏差，不把整件事全部记为欠账",
+                       "不同领域使用各自单位，不跨领域折算",
+                       "后续只通过正常、可持续的行为逐步回归，不绝食、不跳餐、不惩罚性运动",
+                       "原始估算和历史调整只追加，不抹除",
+                       "账目无到期时间，长期保留至 remaining 归零或用户明确封存；不要求精确清零"
+                   ],
+    "entry_template":  {
+                           "id":  "adjustment_YYYYMMDD_001",
+                           "date":  "YYYY-MM-DD",
+                           "domain":  "饮食/运动/学习/工作/作息/其他",
+                           "reason":  "现实约束或不可避免安排",
+                           "source_record_id":  "关联我的生活记录.json中的原始事件ID",
+                           "deviation":  {
+                                             "description":  "相对原计划的偏差，仅记录多出或未完成的部分",
+                                             "amount":  null,
+                                             "range":  "可选估算范围",
+                                             "unit":  "按领域填写，例如kcal、分钟或次",
+                                             "estimate":  true
+                                         },
+                           "plan":  {
+                                        "method":  "温和、可持续的回归方式",
+                                        "deadline":  null
+                                    },
+                           "adjustments":  [
+                                               {
+                                                   "date":  "YYYY-MM-DD",
+                                                   "amount":  null,
+                                                   "unit":  "与该条目一致",
+                                                   "source_record_id":  "可选的后续事实记录ID",
+                                                   "method":  "实际发生的正常调整",
+                                                   "remaining_after":  null
+                                               }
+                                           ],
+                           "remaining":  {
+                                             "amount":  null,
+                                             "unit":  "与偏差相同；不可量化时填未量化"
+                                         },
+                           "status":  "观察中/已回归/已封存",
+                           "note":  "不确定性、安全边界或其他说明"
+                       },
+    "entries":  [
+                    {
+                        "id":  "adjustment_20261016_001",
+                        "date":  "2026-10-16",
+                        "domain":  "饮食",
+                        "reason":  "昨晚加班过晚后的夜间大量进食",
+                        "source_record_id":  "rec_20261016_001",
+                        "deviation":  {
+                                          "description":  "干脆面、辣片、酸奶、冰淇淋、果冻和红豆沙点心的总摄入估算",
+                                          "amount":  3000,
+                                          "range":  "约2500–3500千卡（AI估算）",
+                                          "unit":  "kcal",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+                                            {
+                                                "date":  "2026-10-16",
+                                                "amount":  300,
+                                                "unit":  "kcal（本次1000千卡回调中，结转至本条目的账面回调量）",
+                                                "source_record_id":  "rec_20261016_004",
+                                                "method":  "本次回调先结清上一条目700千卡，剩余300千卡回调至本条目",
+                                                "remaining_after":  2700
+                                            },
+                                            {
+                                                "date":  "2026-10-16",
+                                                "amount":  500,
+                                                "unit":  "kcal（用户确认的账面回调量）",
+                                                "source_record_id":  "rec_20261016_019",
+                                                "method":  "骑行22公里，约消耗500千卡，用户确认用于还账",
+                                                "remaining_after":  2200
+                                            },
+                                            {
+                                                "date":  "2026-10-16",
+                                                "amount":  300,
+                                                "unit":  "kcal（用户确认的账面回调量）",
+                                                "source_record_id":  null,
+                                                "method":  "用户确认再还300千卡",
+                                                "remaining_after":  1900
+                                            },
+                                            {
+                                                "date":  "2026-10-18",
+                                                "amount":  300,
+                                                "unit":  "kcal（用户确认的账面回调量）",
+                                                "source_record_id":  null,
+                                                "method":  "用户确认还300千卡",
+                                                "remaining_after":  1600
+                                            },
+                                            {
+                                                "date":  "2026-10-20",
+                                                "amount":  400,
+                                                "unit":  "kcal（用户确认的账面回调量）",
+                                                "source_record_id":  "rec_20261020_056",
+                                                "method":  "用户确认还400千卡；先结到本条目",
+                                                "remaining_after":  1200
+                                            },
+                                            {
+                                                "date":  "2026-10-25",
+                                                "amount":  400,
+                                                "unit":  "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
+                                                "source_record_id":  "rec_20261025_017",
+                                                "method":  "用户确认还账400千卡，按v1.29结清顺序（先结最早未清账目）结到本条",
+                                                "remaining_after":  800
+                                            },
+                                            {
+                                                "date":  "2026-10-26",
+                                                "amount":  300,
+                                                "unit":  "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
+                                                "source_record_id":  "rec_20261026_059",
+                                                "method":  "用户于2026-10-27确认昨天还账300千卡；未指定账目，按发生日期由早到晚结到最早未清饮食账",
+                                                "remaining_after":  500
+                                            }
+                                        ],
+                        "remaining":  {
+                                          "amount":  500,
+                                          "unit":  "kcal（账面估算余额：3000−300−500−300−300−400−400−300；不是测量所得的生理能量缺口）"
+                                      },
+                        "status":  "观察中",
+                        "note":  "这是加班过晚后的实际饮食偏差；热量按AI区间中值记账，不构成零食或酒水例外。"
+                    },
+                    {
+                        "id":  "adjustment_20261017_001",
+                        "date":  "2026-10-17",
+                        "domain":  "饮食",
+                        "reason":  "家人聚餐，难以回避的正常社交餐",
+                        "source_record_id":  "rec_20261017_022",
+                        "deviation":  {
+                                          "description":  "烤肉聚餐相对平常晚餐（约500–700千卡）多出的热量估算",
+                                          "amount":  900,
+                                          "range":  "约700–1100千卡（AI估算，完整摄入约1200–1800千卡，扣除正常晚餐部分）",
+                                          "unit":  "kcal",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  900,
+                                          "unit":  "kcal（账面估算余额；不是测量所得的生理能量缺口）"
+                                      },
+                        "status":  "观察中",
+                        "note":  "家人聚餐属于确实难以回避的正常社交餐；只估算相对平常晚餐多出的部分；不视为减脂失败；估算不确定性较大"
+                    },
+                    {
+                        "id":  "adjustment_20261018_001",
+                        "date":  "2026-10-18",
+                        "domain":  "饮食",
+                        "reason":  "计划外零食，用户要求补记到账本",
+                        "source_record_id":  "rec_20261018_009",
+                        "deviation":  {
+                                          "description":  "零食总摄入估算",
+                                          "amount":  5000,
+                                          "range":  "约5000千卡（用户估算）",
+                                          "unit":  "kcal",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "恢复正常、规律饮食和日常活动；之后逐步消化，不绝食、不跳餐、不惩罚性运动",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  5000,
+                                          "unit":  "kcal（账面估算余额；不是测量所得的生理能量缺口）"
+                                      },
+                        "status":  "观察中",
+                        "note":  "这是已经发生的计划外零食补记；不构成零食或酒水例外，也不能借此继续扩大偏差。2026-10-25 曾将一笔400千卡回调挂在本条，按 v1.29 结清顺序改为挂到最早的未清饮食账 adjustment_20261016_001，本条恢复5000。"
+                    },
+                    {
+                        "id":  "adjustment_20261015_001",
+                        "date":  "2026-10-15",
+                        "domain":  "饮食",
+                        "reason":  "早晨饮用啤酒并吃较多零食",
+                        "source_record_id":  "rec_20261015_001",
+                        "deviation":  {
+                                          "description":  "按用户指定的账本口径，将本次早晨饮食记为约1700千卡待回调额度",
+                                          "amount":  1700,
+                                          "range":  "约1700千卡（用户估算，用作账面起始额度）",
+                                          "unit":  "kcal",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "之后恢复正常、规律饮食和日常活动，在约一周趋势中慢慢消化偏差；不绝食、不跳餐、不惩罚性运动",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+                                            {
+                                                "date":  "2026-10-15",
+                                                "amount":  1000,
+                                                "unit":  "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
+                                                "source_record_id":  "rec_20261015_003",
+                                                "method":  "用户确认午餐未额外进食，并按其账本口径回调约1000千卡",
+                                                "remaining_after":  null
+                                            },
+                                            {
+                                                "date":  "2026-10-16",
+                                                "amount":  700,
+                                                "unit":  "kcal（用户确认的账面回调量；非体重或能量代谢测量值）",
+                                                "source_record_id":  "rec_20261016_004",
+                                                "method":  "本次回调先结清该条目剩余700千卡",
+                                                "remaining_after":  0
+                                            }
+                                        ],
+                        "remaining":  {
+                                          "amount":  0,
+                                          "unit":  "kcal（账面估算余额：1700−1000−700；不是测量所得的生理能量缺口）"
+                                      },
+                        "status":  "已回调",
+                        "note":  "按用户指定的账本口径，以早晨约1700千卡作为账面起始额度；此前回调1000千卡后剩余700千卡，本次先结清该条目。以上为估算记账值，不代表测得的生理能量缺口；后续调整保持渐进，不绝食、不跳餐、不惩罚性运动。"
+                    },
+                    {
+                        "id":  "adjustment_20261014_001",
+                        "date":  "2026-10-14",
+                        "domain":  "每日坚持目标",
+                        "reason":  "晚间太困，未练口琴和舞蹈",
+                        "source_record_id":  "rec_20261014_034",
+                        "deviation":  {
+                                          "description":  "今日口琴、舞蹈两项未完成",
+                                          "amount":  2,
+                                          "range":  null,
+                                          "unit":  "项目",
+                                          "estimate":  false
+                                      },
+                        "plan":  {
+                                     "method":  "优先休息；按精力恢复日常练习，不双倍补做，不把遗漏变成惩罚性欠债",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+                                            {
+                                                "date":  "2026-10-15",
+                                                "amount":  1,
+                                                "unit":  "项目",
+                                                "source_record_id":  "rec_20261015_005",
+                                                "method":  "用户于次日完成口琴练习，按用户意图补回前一日未完成项目",
+                                                "remaining_after":  1
+                                            },
+                                            {
+                                                "date":  "2026-10-15",
+                                                "amount":  1,
+                                                "unit":  "项目",
+                                                "source_record_id":  "rec_20261015_006",
+                                                "method":  "用户于次日完成舞蹈练习，按用户意图补回前一日未完成项目",
+                                                "remaining_after":  0
+                                            }
+                                        ],
+                        "remaining":  {
+                                          "amount":  0,
+                                          "unit":  "项目"
+                                      },
+                        "status":  "已回归",
+                        "note":  "两项是长期兴趣目标；用户于2026-10-15完成口琴和舞蹈，并明确表示已补回前一日未完成的项目。10月14日未练的事实保留，补回记录不改写历史。"
+                    },
+                    {
+                        "id":  "adjustment_20261020_001",
+                        "date":  "2026-10-20",
+                        "domain":  "刷屏",
+                        "reason":  "当日无目的刷屏超过每天30分钟额度",
+                        "source_record_id":  "rec_20261020_055",
+                        "deviation":  {
+                                          "description":  "当日无目的刷屏约105分钟，相对每天30分钟额度多出的部分",
+                                          "amount":  75,
+                                          "range":  "约75分钟（早间约5分钟+温习对佛的描述20分钟+午后约5分钟+边工作约15分钟+睡前B站油管60分钟，合计约105分钟）",
+                                          "unit":  "分钟",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  75,
+                                          "unit":  "分钟"
+                                      },
+                        "status":  "观察中",
+                        "note":  "计入无目的刷屏，不含边走边学；自律分仍按评分规则计算，账本不另扣一项。不羞辱。"
+                    },
+                    {
+                        "id":  "adjustment_20261021_001",
+                        "date":  "2026-10-21",
+                        "domain":  "刷屏",
+                        "reason":  "当日无目的刷屏超过每天30分钟额度",
+                        "source_record_id":  "rec_20261021_052",
+                        "deviation":  {
+                                          "description":  "今日无目的刷屏约60分钟，相对每天30分钟额度多出的部分",
+                                          "amount":  30,
+                                          "range":  "约30分钟（前一段哔哩哔哩30分钟，后续视频30分钟，合计约60分钟）",
+                                          "unit":  "分钟",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  30,
+                                          "unit":  "分钟"
+                                      },
+                        "status":  "观察中",
+                        "note":  "计入无目的刷屏，不羞辱；自律分按当天累计时长计算。"
+                    },
+                    {
+                        "id":  "adjustment_20261027_001",
+                        "date":  "2026-10-27",
+                        "domain":  "记录",
+                        "reason":  "用户说提交时，当日生活记录不足50条",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "2026-10-27提交时已有47条生活记录，相对每天至少50条少3条",
+                                          "amount":  3,
+                                          "range":  "3条",
+                                          "unit":  "条",
+                                          "estimate":  false
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过50条的部分，按条一对一回补；不跨领域用运动、少吃或其他事项折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+                                            {
+                                                "date":  "2026-10-27",
+                                                "amount":  2,
+                                                "unit":  "条",
+                                                "source_record_id":  "rec_20261027_048,rec_20261027_049",
+                                                "method":  "提交后又补记音乐和舞蹈两条，当日条数从47增至49；原差额3条不抹除",
+                                                "remaining_after":  1
+                                            },
+                                            {
+                                                "date":  "2026-10-27",
+                                                "amount":  1,
+                                                "unit":  "条",
+                                                "source_record_id":  "rec_20261027_050",
+                                                "method":  "同日再补记晚间哔哩哔哩一条，当日条数达到50；原差额3条不抹除",
+                                                "remaining_after":  0
+                                            }
+                                        ],
+                        "remaining":  {
+                                          "amount":  0,
+                                          "unit":  "条"
+                                      },
+                        "status":  "已回归",
+                        "note":  "提交时点是47条、差额3条。随后同日补记音乐、舞蹈和晚间哔哩哔哩共3条，当日达到50条，剩余0条。原差额不抹除。不够不羞辱、不扣自律分，也不编造事件凑条数。"
+                    },
+                    {
+                        "id":  "adjustment_20261027_002",
+                        "date":  "2026-10-27",
+                        "domain":  "刷屏",
+                        "reason":  "当日无目的刷屏超过每天30分钟额度",
+                        "source_record_id":  "rec_20261027_050",
+                        "deviation":  {
+                                          "description":  "今日无目的刷屏合计50分钟，相对每天30分钟额度多出的部分",
+                                          "amount":  20,
+                                          "range":  "20分钟（早上哔哩哔哩10分钟，11:39无目的视频20分钟，22:38哔哩哔哩20分钟）",
+                                          "unit":  "分钟",
+                                          "estimate":  false
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际少于30分钟的差额，按分钟一对一回补；不跨领域用少吃、多运动或多记条数折算",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  20,
+                                          "unit":  "分钟"
+                                      },
+                        "status":  "观察中",
+                        "note":  "用户明确20分钟并认罚。只把超出30分钟额度的20分钟入账，不羞辱。自律分按当天累计时长另算。"
+                    },
+                    {
+                        "id":  "adj_20261028_001",
+                        "date":  "2026-10-28",
+                        "domain":  "刷屏",
+                        "reason":  "今日无目的刷娱乐视频一个多小时，超出每日30分钟额度",
+                        "source_record_id":  "rec_20261028_039",
+                        "deviation":  {
+                                          "amount":  30,
+                                          "unit":  "分钟",
+                                          "range":  "至少30分钟（用户说一个多小时即至少60分钟，减去30分钟额度）",
+                                          "note":  "AI估算下限"
+                                      },
+                        "plan":  {
+                                     "deadline":  null,
+                                     "note":  "后续某天刷屏少于30分钟的差额可按分钟一对一回补"
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  30,
+                                          "unit":  "分钟"
+                                      },
+                        "status":  "观察中",
+                        "note":  "用户主动忏悔并报告。属罚单2026-10-27-001执行期间同类破戒，罚单已延长至48小时。此处只记刷屏额度超出部分，不与罚单重复处罚。"
+                    }
+                ]
 }
