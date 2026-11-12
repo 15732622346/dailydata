@@ -23470,6 +23470,24 @@
                                     },
                         "source":  "用户明确",
                         "note":  "时间属AI估算。当日散步共8波80分钟，加骑行15公里，运动累计约130–140分钟，达2小时以上。"
+                    },
+                    {
+                        "id":  "rec_20261112_036",
+                        "timestamp":  "2026-11-12T22:56",
+                        "type":  "收支",
+                        "event":  "打车",
+                        "details":  {
+                                        "direction":  "支出",
+                                        "amount":  40.00,
+                                        "currency":  "CNY",
+                                        "category":  "交通",
+                                        "description":  "打车回家",
+                                        "account":  "",
+                                        "merchant":  "",
+                                        "用户原话":  "打车会会花了40块钱"
+                                    },
+                        "source":  "用户明确",
+                        "note":  "“会会”按输入误写理解为“回家”。"
                     }
                 ],
     "profile_score":  {
