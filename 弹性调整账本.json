@@ -704,6 +704,88 @@
                         "note":  "社交餐属于规则允许的弹性范围，不视为减脂失败、不开罚单、不扣自律分。只记超平常部分，不记整餐。饮食分在评分里已按高油高糖和热量超标扣分，账本不重复处罚。"
                     },
                     {
+                        "id":  "adjustment_20261107_001",
+                        "date":  "2026-11-07",
+                        "domain":  "记录条数",
+                        "reason":  "当天无任何记录（空档）",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "2026-11-07全天0条记录，按每日55条标准欠55条",
+                                          "amount":  55,
+                                          "unit":  "条",
+                                          "estimate":  false
+                                      },
+                        "plan":  {
+                                     "method":  "恢复每日正常记录节奏，后续以持续达标逐步消化",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+                                            {
+                                                "date":  "2026-11-09",
+                                                "amount":  12,
+                                                "unit":  "条",
+                                                "source_record_id":  null,
+                                                "method":  "用户补记2026-11-07共12条",
+                                                "remaining_after":  43
+                                            }
+                                        ],
+                        "remaining":  {
+                                          "amount":  43,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "无期限挂账；不用其他领域抵扣。"
+                    },
+                    {
+                        "id":  "adjustment_20261108_001",
+                        "date":  "2026-11-08",
+                        "domain":  "记录条数",
+                        "reason":  "当天无任何记录（空档）",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "2026-11-08全天0条记录，按每日55条标准欠55条",
+                                          "amount":  55,
+                                          "unit":  "条",
+                                          "estimate":  false
+                                      },
+                        "plan":  {
+                                     "method":  "恢复每日正常记录节奏，后续以持续达标逐步消化",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+                                            {
+                                                "date":  "2026-11-09",
+                                                "amount":  1,
+                                                "unit":  "条",
+                                                "source_record_id":  null,
+                                                "method":  "用户补记2026-11-08共1条（整理电脑）",
+                                                "remaining_after":  54
+                                            },
+                                            {
+                                                "date":  "2026-11-09",
+                                                "amount":  2,
+                                                "unit":  "条",
+                                                "source_record_id":  null,
+                                                "method":  "用户再补记2026-11-08共2条（两笔支出）",
+                                                "remaining_after":  52
+                                            },
+                                            {
+                                                "date":  "2026-11-09",
+                                                "amount":  1,
+                                                "unit":  "条",
+                                                "source_record_id":  null,
+                                                "method":  "用户补记2026-11-08做饭（已确认没看视频）",
+                                                "remaining_after":  51
+                                            }
+                                        ],
+                        "remaining":  {
+                                          "amount":  51,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "无期限挂账；不用其他领域抵扣。"
+                    },
+                    {
                         "id":  "adjustment_20261110_001",
                         "date":  "2026-11-10",
                         "domain":  "刷屏",
@@ -723,6 +805,61 @@
                                           "unit":  "分钟"
                                       },
                         "note":  "2026-11-11补记。此前只在罚单与评分里扣了自律分，账本漏记，现按规则补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261114_001",
+                        "date":  "2026-11-14",
+                        "domain":  "刷屏",
+                        "reason":  "当天刷视频约50分钟，超出每日30分钟额度",
+                        "source_record_id":  "rec_20261114_013",
+                        "deviation":  {
+                                          "description":  "当日无目的刷屏约50分钟，相对每天30分钟额度多出的部分",
+                                          "amount":  20,
+                                          "range":  "20分钟",
+                                          "unit":  "分钟"
+                                      },
+                        "recovery":  [
+
+                                     ],
+                        "remaining":  {
+                                          "amount":  20,
+                                          "unit":  "分钟"
+                                      },
+                        "note":  "用户自述\"50分钟吧\"，为估计值。同日碳酸破戒另行在罚单2026-11-09-001加时，不入本账本。",
+                        "plan":  {
+                                     "method":  "之后按每日30分钟额度回归，可在账本追加正常回归记录减少remaining；不要求一次性清零"
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "status":  "观察中"
+                    },
+                    {
+                        "id":  "adjustment_20261114_002",
+                        "date":  "2026-11-14",
+                        "domain":  "饮食",
+                        "reason":  "晚餐为一大桌菜（椒盐皮皮虾、白灼大虾、蒸螃蟹、煎虾排），摄入明显高于平常",
+                        "source_record_id":  "rec_20261114_012",
+                        "deviation":  {
+                                          "description":  "用户自估约2000千卡。平常晚餐按约700–900千卡估，只把多出部分记账，不把整顿饭都记成欠账",
+                                          "amount":  1200,
+                                          "range":  "1100–1300千卡（AI估算，平常晚餐取700–900千卡）",
+                                          "unit":  "千卡",
+                                          "estimate":  true
+                                      },
+                        "plan":  {
+                                     "method":  "之后按平常、可持续的饮食逐步回归，可在账本追加正常回归记录减少remaining；不要求精确还清，不绝食、不跳餐、不用惩罚性运动补偿",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  1200,
+                                          "unit":  "千卡"
+                                      },
+                        "status":  "观察中",
+                        "note":  "正常正餐吃多，不是计划外零食，不开罚单、不扣自律分。只记超平常部分，不记整餐。饮食分在评分里按热量超标扣分，账本不重复处罚。"
                     }
                 ]
 }
