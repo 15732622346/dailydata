@@ -834,7 +834,8 @@
                                           "amount":  40,
                                           "unit":  "分钟"
                                       },
-                        "note":  "2026-11-11补记。此前只在罚单与评分里扣了自律分，账本漏记，现按规则补入。"
+                        "note":  "2026-11-11补记。此前只在罚单与评分里扣了自律分，账本漏记，现按规则补入。",
+                        "status":  "观察中"
                     },
                     {
                         "id":  "adjustment_20261114_001",
@@ -890,6 +891,240 @@
                                       },
                         "status":  "观察中",
                         "note":  "正常正餐吃多，不是计划外零食，不开罚单、不扣自律分。只记超平常部分，不记整餐。饮食分在评分里按热量超标扣分，账本不重复处罚。"
+                    },
+                    {
+                        "id":  "adjustment_20261104_001",
+                        "date":  "2026-11-04",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际45条，相对每日55条额度缺少的部分",
+                                          "amount":  10,
+                                          "range":  "10条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  10,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日45条，缺10条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261106_001",
+                        "date":  "2026-11-06",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际53条，相对每日55条额度缺少的部分",
+                                          "amount":  2,
+                                          "range":  "2条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  2,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日53条，缺2条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261109_001",
+                        "date":  "2026-11-09",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际49条，相对每日55条额度缺少的部分",
+                                          "amount":  6,
+                                          "range":  "6条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  6,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日49条，缺6条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261110_001",
+                        "date":  "2026-11-10",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际37条，相对每日55条额度缺少的部分",
+                                          "amount":  18,
+                                          "range":  "18条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  18,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日37条，缺18条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261111_001",
+                        "date":  "2026-11-11",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际51条，相对每日55条额度缺少的部分",
+                                          "amount":  4,
+                                          "range":  "4条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  4,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日51条，缺4条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261112_001",
+                        "date":  "2026-11-12",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际46条，相对每日55条额度缺少的部分",
+                                          "amount":  9,
+                                          "range":  "9条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  9,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日46条，缺9条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261114_001",
+                        "date":  "2026-11-14",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际15条，相对每日55条额度缺少的部分",
+                                          "amount":  40,
+                                          "range":  "40条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  40,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日15条，缺40条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261115_001",
+                        "date":  "2026-11-15",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际11条，相对每日55条额度缺少的部分",
+                                          "amount":  44,
+                                          "range":  "44条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  44,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日11条，缺44条。此前未入账，2026-11-17补入。"
+                    },
+                    {
+                        "id":  "adjustment_20261116_001",
+                        "date":  "2026-11-16",
+                        "domain":  "记录条数",
+                        "reason":  "当日记录条数不足每日55条额度",
+                        "source_record_id":  null,
+                        "deviation":  {
+                                          "description":  "当日实际41条，相对每日55条额度缺少的部分",
+                                          "amount":  14,
+                                          "range":  "14条",
+                                          "unit":  "条"
+                                      },
+                        "plan":  {
+                                     "method":  "之后某天实际超过55条的部分按条一对一回补，不跨领域折算，不要求双倍补记",
+                                     "deadline":  null
+                                 },
+                        "adjustments":  [
+
+                                        ],
+                        "remaining":  {
+                                          "amount":  14,
+                                          "unit":  "条"
+                                      },
+                        "status":  "观察中",
+                        "note":  "当日41条，缺14条。此前未入账，2026-11-17补入。"
                     }
                 ]
 }
