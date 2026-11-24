@@ -26716,6 +26716,23 @@
       },
       "source": "用户明确",
       "note": "开始时间AI估算（骑行后到公司）。用户未说具体工作内容，不自行编造。时长未提供，评分口径按默认10分钟。用户确认：这段没有看任何视频，依据是本人浏览记录。"
+    },
+    {
+      "id": "rec_20261124_006",
+      "timestamp": "2026-11-24T13:05",
+      "type": "收支",
+      "event": "购买WiFi天线",
+      "details": {
+        "direction": "支出",
+        "amount": 50.0,
+        "currency": "CNY",
+        "category": "通讯与网络",
+        "description": "WiFi天线",
+        "account": "",
+        "merchant": ""
+      },
+      "source": "用户明确",
+      "note": "金额50元用户明确；购买时间和支付方式未提供，时间按报告时刻13:05记。"
     }
   ],
   "profile_score": {
