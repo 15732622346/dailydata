@@ -48,6 +48,16 @@ if ($Message -ne "") {
 
 Clear-ProxyEnv
 
+$tokenPath = Join-Path (Get-Location).Path ".github-token"
+$authArgs = @()
+if (Test-Path -LiteralPath $tokenPath) {
+    $token = (Get-Content -LiteralPath $tokenPath -Raw).Trim()
+    if ($token) {
+        $basic = [Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes("x-access-token:$token"))
+        $authArgs = @("-c", "http.extraHeader=Authorization: Basic $basic")
+    }
+}
+
 $attempts = @(
     @{ Name = "直连（清空代理）";         Args = @("-c","http.proxy=","-c","https.proxy=") },
     @{ Name = "本地代理 127.0.0.1:7892"; Args = @("-c","http.proxy=http://127.0.0.1:7892","-c","https.proxy=http://127.0.0.1:7892") },
@@ -57,7 +67,7 @@ $attempts = @(
 $pushed = $false
 foreach ($a in $attempts) {
     Write-Host "尝试：$($a.Name)"
-    $r = Invoke-Git ($a.Args + @("push", $Remote, $Branch))
+    $r = Invoke-Git ($a.Args + $authArgs + @("push", $Remote, $Branch))
     if ($r.Code -eq 0) {
         Write-Host "  成功：$($r.Output)"
         $pushed = $true
@@ -73,7 +83,7 @@ if (-not $pushed) {
 }
 
 $local = (Invoke-Git @("rev-parse","HEAD")).Output
-$remoteOut = (Invoke-Git @("-c","http.proxy=","-c","https.proxy=","ls-remote", $Remote, "refs/heads/$Branch")).Output
+$remoteOut = (Invoke-Git ($authArgs + @("-c","http.proxy=","-c","https.proxy=","ls-remote", $Remote, "refs/heads/$Branch"))).Output
 $remoteHash = ($remoteOut -split "`t")[0]
 Write-Host "LOCAL =$local"
 Write-Host "REMOTE=$remoteHash"
